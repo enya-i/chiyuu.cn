@@ -190,12 +190,6 @@
         {
           "context": "d:\\kaitlyn\\chiyuu.cn",
           "entry": {
-            "ant/tab/tab": [
-              "react-hot-loader/patch",
-              "d:\\kaitlyn\\chiyuu.cn\\node_modules\\webpack-hot-middleware/client?path=http://127.0.0.1:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
-              "d:\\kaitlyn\\chiyuu.cn\\node_modules\\easywebpack\\utils\\hot.js",
-              "babel-loader!d:\\kaitlyn\\chiyuu.cn\\app\\web\\framework\\entry\\client-loader.js!d:\\kaitlyn\\chiyuu.cn\\app\\web\\page\\ant\\tab\\tab.jsx"
-            ],
             "home/home": [
               "react-hot-loader/patch",
               "d:\\kaitlyn\\chiyuu.cn\\node_modules\\webpack-hot-middleware/client?path=http://127.0.0.1:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
@@ -636,7 +630,6 @@
         {
           "context": "d:\\kaitlyn\\chiyuu.cn",
           "entry": {
-            "ant/tab/tab": "babel-loader!d:\\kaitlyn\\chiyuu.cn\\app\\web\\framework\\entry\\server-loader.js!d:\\kaitlyn\\chiyuu.cn\\app\\web\\page\\ant\\tab\\tab.jsx",
             "home/home": "babel-loader!d:\\kaitlyn\\chiyuu.cn\\app\\web\\framework\\entry\\server-loader.js!d:\\kaitlyn\\chiyuu.cn\\app\\web\\page\\home\\home.jsx"
           },
           "output": {

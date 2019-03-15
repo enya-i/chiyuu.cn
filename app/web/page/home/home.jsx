@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import Header from 'component/header/header.jsx';
-import List from './component/list.jsx';
 import './home.css';
 export default class Home extends Component {
   componentDidMount() {
@@ -9,12 +7,7 @@ export default class Home extends Component {
 
   render() {
     return <div>
-      <Header></Header>
-      <div className="main">
-        <div className="page-container page-component">
-          <List list={this.props.list}></List>
-        </div>
-      </div>
+      <h1>home page</h1>
     </div>;
   }
 }

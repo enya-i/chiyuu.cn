@@ -4,3 +4,62 @@
 2019-03-15 20:05:43,537 INFO 13580 [-/127.0.0.1/-/39ms GET /public/e09338948a8a408d58de.hot-update.json] [access] 127.0.0.1: - GET /public/e09338948a8a408d58de.hot-update.json HTTP/404 - http://127.0.0.1:7001/ant/tab 0 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36
 2019-03-15 20:05:43,750 INFO 13580 [-/127.0.0.1/-/68ms GET /] [access] 127.0.0.1: - GET / HTTP/200 8576 - 67 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36
 2019-03-15 20:05:44,120 INFO 13580 [-/127.0.0.1/-/3ms GET /public/e09338948a8a408d58de.hot-update.json] [access] 127.0.0.1: - GET /public/e09338948a8a408d58de.hot-update.json HTTP/404 - http://127.0.0.1:7001/ant/tab 0 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36
+2019-03-15 20:16:06,583 INFO 14020 [-/127.0.0.1/-/319ms GET /] [access] 127.0.0.1: - GET / HTTP/200 4049 - 312 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36
+2019-03-15 20:17:08,222 ERROR 5904 [-/127.0.0.1/-/202ms GET /] nodejs.TypeError: Cannot read property 'text' of undefined
+    at Module.render (webpack:///./app/web/page/ant/tab/tab.jsx?:59:32)
+    at processChild (d:\kaitlyn\chiyuu.cn\node_modules\react-dom\cjs\react-dom-server.node.development.js:2942:18)
+    at resolve (d:\kaitlyn\chiyuu.cn\node_modules\react-dom\cjs\react-dom-server.node.development.js:2795:5)
+    at ReactDOMServerRenderer.render (d:\kaitlyn\chiyuu.cn\node_modules\react-dom\cjs\react-dom-server.node.development.js:3185:22)
+    at ReactDOMServerRenderer.read (d:\kaitlyn\chiyuu.cn\node_modules\react-dom\cjs\react-dom-server.node.development.js:3144:29)
+    at Object.renderToString (d:\kaitlyn\chiyuu.cn\node_modules\react-dom\cjs\react-dom-server.node.development.js:3629:27)
+    at Engine.renderToString (d:\kaitlyn\chiyuu.cn\node_modules\egg-view-react-ssr\lib\engine.js:130:27)
+    at Engine.renderElement (d:\kaitlyn\chiyuu.cn\node_modules\egg-view-react-ssr\lib\engine.js:100:35)
+    at d:\kaitlyn\chiyuu.cn\node_modules\egg-webpack-react\app.js:28:26
+    at Generator.next (<anonymous>)
+    at onFulfilled (d:\kaitlyn\chiyuu.cn\node_modules\co\index.js:65:19)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 5904
+hostname: kaitlyn-hp
+
+2019-03-15 20:19:52,163 ERROR 5904 [-/127.0.0.1/-/36ms GET /] nodejs.TypeError: Cannot read property 'text' of undefined
+    at Module.render (webpack:///./app/web/page/ant/tab/tab.jsx?:59:32)
+    at processChild (d:\kaitlyn\chiyuu.cn\node_modules\react-dom\cjs\react-dom-server.node.development.js:2942:18)
+    at resolve (d:\kaitlyn\chiyuu.cn\node_modules\react-dom\cjs\react-dom-server.node.development.js:2795:5)
+    at ReactDOMServerRenderer.render (d:\kaitlyn\chiyuu.cn\node_modules\react-dom\cjs\react-dom-server.node.development.js:3185:22)
+    at ReactDOMServerRenderer.read (d:\kaitlyn\chiyuu.cn\node_modules\react-dom\cjs\react-dom-server.node.development.js:3144:29)
+    at Object.renderToString (d:\kaitlyn\chiyuu.cn\node_modules\react-dom\cjs\react-dom-server.node.development.js:3629:27)
+    at Engine.renderToString (d:\kaitlyn\chiyuu.cn\node_modules\egg-view-react-ssr\lib\engine.js:130:27)
+    at Engine.renderElement (d:\kaitlyn\chiyuu.cn\node_modules\egg-view-react-ssr\lib\engine.js:100:35)
+    at d:\kaitlyn\chiyuu.cn\node_modules\egg-webpack-react\app.js:28:26
+    at Generator.next (<anonymous>)
+    at onFulfilled (d:\kaitlyn\chiyuu.cn\node_modules\co\index.js:65:19)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 5904
+hostname: kaitlyn-hp
+
+2019-03-15 20:20:20,453 INFO 4816 [-/127.0.0.1/-/77ms GET /] [access] 127.0.0.1: - GET / HTTP/200 730 - 65 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36
+2019-03-15 20:21:31,211 ERROR 12844 [-/127.0.0.1/-/28ms GET /] nodejs.MODULE_NOT_FOUNDError: Cannot find module 'component/header/header.jsx'
+    at webpackMissingModule (webpack:///./app/web/page/home/home.jsx?./node_modules/babel-loader/lib!./app/web/framework/entry/server-loader.js:5:45)
+    at Module.eval (webpack:///./app/web/page/home/home.jsx?./node_modules/babel-loader/lib!./app/web/framework/entry/server-loader.js:5:147)
+    at eval (webpack:///./app/web/page/home/home.jsx?./node_modules/babel-loader/lib!./app/web/framework/entry/server-loader.js:74:30)
+    at Module../node_modules/babel-loader/lib/index.js!./app/web/framework/entry/server-loader.js!./app/web/page/home/home.jsx (evalmachine.<anonymous>:132:1)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at evalmachine.<anonymous>:84:18
+    at evalmachine.<anonymous>:87:10
+    at d:\kaitlyn\chiyuu.cn\node_modules\egg-webpack-react\app.js:23:37
+    at Generator.next (<anonymous>)
+    at onFulfilled (d:\kaitlyn\chiyuu.cn\node_modules\co\index.js:65:19)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+code: "MODULE_NOT_FOUND"
+name: "MODULE_NOT_FOUNDError"
+pid: 12844
+hostname: kaitlyn-hp
+
+2019-03-15 20:21:41,049 INFO 12844 [-/127.0.0.1/-/16ms GET /public/38983cb4fae814a275d6.hot-update.json] [access] 127.0.0.1: - GET /public/38983cb4fae814a275d6.hot-update.json HTTP/404 - http://127.0.0.1:7001/ 0 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36
+2019-03-15 20:23:50,016 INFO 8040 [-/127.0.0.1/-/50ms GET /] [access] 127.0.0.1: - GET / HTTP/200 730 - 41 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36
+2019-03-15 20:24:02,054 INFO 8040 [-/127.0.0.1/-/10ms GET /public/38983cb4fae814a275d6.hot-update.json] [access] 127.0.0.1: - GET /public/38983cb4fae814a275d6.hot-update.json HTTP/404 - http://127.0.0.1:7001/ 0 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36
