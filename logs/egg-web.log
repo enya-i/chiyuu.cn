@@ -124,3 +124,17 @@
 2019-03-15 20:23:47,429 INFO 8040 [egg:core] dump config after load, 7ms
 2019-03-15 20:23:47,438 INFO 8040 [egg-watcher:application] watcher start success
 2019-03-15 20:23:47,450 INFO 8040 [egg:core] dump config after ready, 9ms
+2019-03-15 20:48:00,755 INFO 5472 [egg:logger] init all loggers with options: {"dir":"d:\\kaitlyn\\chiyuu.cn\\logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-react-webpack-mpa-boilerplate-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-03-15 20:48:00,782 INFO 5472 [egg-multipart] stream mode enable
+2019-03-15 20:48:00,860 INFO 5472 [egg-static] starting static serve /public/ -> d:\kaitlyn\chiyuu.cn\public
+2019-03-15 20:48:00,862 INFO 5472 [egg-security] use csrf middleware
+2019-03-15 20:48:00,862 INFO 5472 [egg-security] use methodnoallow middleware
+2019-03-15 20:48:00,863 INFO 5472 [egg-security] use noopen middleware
+2019-03-15 20:48:00,863 INFO 5472 [egg-security] use nosniff middleware
+2019-03-15 20:48:00,864 INFO 5472 [egg-security] use xssProtection middleware
+2019-03-15 20:48:00,864 INFO 5472 [egg-security] use xframe middleware
+2019-03-15 20:48:00,864 INFO 5472 [egg-security] use dta middleware
+2019-03-15 20:48:00,864 INFO 5472 [egg-security] compose 7 middlewares into one security middleware
+2019-03-15 20:48:00,875 INFO 5472 [egg:core] dump config after load, 7ms
+2019-03-15 20:48:00,884 INFO 5472 [egg-watcher:application] watcher start success
+2019-03-15 20:48:00,896 INFO 5472 [egg:core] dump config after ready, 10ms
