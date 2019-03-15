@@ -1,0 +1,41 @@
+{
+  "ant/tab/tab.css": "/public/css/ant/tab/tab.css",
+  "ant/tab/tab.js": "/public/js/chunk/ant/tab/tab.js",
+  "common.css": "/public/css/common.css",
+  "common.js": "/public/js/chunk/common.js",
+  "home/home.css": "/public/css/home/home.css",
+  "home/home.js": "/public/js/chunk/home/home.js",
+  "runtime.js": "/public/js/runtime.js",
+  "vendor.js": "/public/js/vendor.js",
+  "deps": {
+    "ant/tab/tab.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/runtime.js",
+        "/public/js/chunk/common.js",
+        "/public/js/chunk/ant/tab/tab.js"
+      ],
+      "css": [
+        "/public/css/common.css",
+        "/public/css/ant/tab/tab.css"
+      ]
+    },
+    "home/home.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/runtime.js",
+        "/public/js/chunk/common.js",
+        "/public/js/chunk/home/home.js"
+      ],
+      "css": [
+        "/public/css/common.css",
+        "/public/css/home/home.css"
+      ]
+    }
+  },
+  "info": {
+    "publicPath": "/public/",
+    "buildPath": "\\public",
+    "mapped": true
+  }
+}

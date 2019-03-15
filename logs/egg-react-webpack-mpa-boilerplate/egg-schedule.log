@@ -1,0 +1,8 @@
+2019-03-15 20:01:34,652 INFO 680 [egg-schedule]: register schedule C:\Users\18730\easy\reactMultiple\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-03-15 20:01:34,652 INFO 680 [egg-schedule]: register schedule C:\Users\18730\easy\reactMultiple\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-03-15 20:01:34,752 INFO 13364 [Timer] C:\Users\18730\easy\reactMultiple\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 14305248ms at 2019-03-16 00:00:00.000
+2019-03-15 20:01:34,752 INFO 13364 [Timer] C:\Users\18730\easy\reactMultiple\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 14306248ms at 2019-03-16 00:00:01.000
+2019-03-15 20:05:36,576 INFO 16288 [Timer] d:\kaitlyn\chiyuu.cn\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 14063424ms at 2019-03-16 00:00:00.000
+2019-03-15 20:05:36,576 INFO 16288 [Timer] d:\kaitlyn\chiyuu.cn\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 14064424ms at 2019-03-16 00:00:01.000
+2019-03-15 20:05:36,307 INFO 13580 [egg-schedule]: register schedule d:\kaitlyn\chiyuu.cn\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-03-15 20:05:36,307 INFO 13580 [egg-schedule]: register schedule d:\kaitlyn\chiyuu.cn\node_modules\egg-logrotator\app\schedule\rotate_by_file.js

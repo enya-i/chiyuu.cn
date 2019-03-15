@@ -1,0 +1,1255 @@
+{
+  "config": {
+    "session": {
+      "maxAge": 86400000,
+      "key": "EGG_SESS",
+      "httpOnly": true,
+      "encrypt": true,
+      "overwrite": true,
+      "signed": true,
+      "autoCommit": true,
+      "encode": "<Function encode>",
+      "decode": "<Function decode>",
+      "genid": "<Function anonymous>"
+    },
+    "security": {
+      "domainWhiteList": [
+        "http://localhost:9000",
+        "http://127.0.0.1:9000",
+        "http://10.27.3.87:9000",
+        "http://localhost:9001",
+        "http://127.0.0.1:9001",
+        "http://10.27.3.87:9001",
+        "http://localhost:9002",
+        "http://127.0.0.1:9002",
+        "http://10.27.3.87:9002"
+      ],
+      "protocolWhiteList": [],
+      "defaultMiddleware": "csrf,hsts,methodnoallow,noopen,nosniff,csp,xssProtection,xframe,dta",
+      "csrf": {
+        "enable": true,
+        "useSession": false,
+        "ignoreJSON": false,
+        "cookieName": "csrfToken",
+        "sessionName": "csrfToken",
+        "headerName": "x-csrf-token",
+        "bodyName": "_csrf",
+        "queryName": "_csrf",
+        "matching": "<Function anonymous>"
+      },
+      "xframe": {
+        "enable": true,
+        "value": "SAMEORIGIN",
+        "matching": "<Function anonymous>"
+      },
+      "hsts": {
+        "enable": false,
+        "maxAge": 31536000,
+        "includeSubdomains": false
+      },
+      "dta": {
+        "enable": true,
+        "matching": "<Function anonymous>"
+      },
+      "methodnoallow": {
+        "enable": true,
+        "matching": "<Function anonymous>"
+      },
+      "noopen": {
+        "enable": true,
+        "matching": "<Function anonymous>"
+      },
+      "nosniff": {
+        "enable": true,
+        "matching": "<Function anonymous>"
+      },
+      "referrerPolicy": {
+        "enable": false,
+        "value": "no-referrer-when-downgrade"
+      },
+      "xssProtection": {
+        "enable": true,
+        "value": "1; mode=block",
+        "matching": "<Function anonymous>"
+      },
+      "csp": {
+        "enable": false,
+        "policy": {}
+      },
+      "ssrf": {
+        "ipBlackList": null,
+        "checkAddress": null
+      },
+      "_protocolWhiteListSet": "<Set>"
+    },
+    "helper": {
+      "shtml": {}
+    },
+    "jsonp": {
+      "limit": 50,
+      "callback": [
+        "_callback",
+        "callback"
+      ],
+      "csrf": false
+    },
+    "onerror": {
+      "errorPageUrl": "",
+      "appErrorFilter": null,
+      "templatePath": "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-onerror\\lib\\onerror_page.mustache"
+    },
+    "i18n": {
+      "defaultLocale": "en_US",
+      "dirs": [
+        "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-session\\config\\locales",
+        "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-security\\config\\locales",
+        "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-jsonp\\config\\locales",
+        "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-onerror\\config\\locales",
+        "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-i18n\\config\\locales",
+        "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-watcher\\config\\locales",
+        "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-schedule\\config\\locales",
+        "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-multipart\\config\\locales",
+        "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-development\\config\\locales",
+        "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-logrotator\\config\\locales",
+        "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-static\\config\\locales",
+        "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-view\\config\\locales",
+        "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-view-react-ssr\\config\\locales",
+        "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-cors\\config\\locales",
+        "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-webpack\\config\\locales",
+        "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-webpack-react\\config\\locales",
+        "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\locales",
+        "d:\\kaitlyn\\chiyuu.cn\\config\\locales"
+      ],
+      "queryField": "locale",
+      "cookieField": "locale",
+      "cookieMaxAge": "1y",
+      "functionName": "__"
+    },
+    "watcher": {
+      "type": "development",
+      "eventSources": {
+        "default": "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-watcher\\lib\\event-sources\\default",
+        "development": "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-watcher\\lib\\event-sources\\development"
+      }
+    },
+    "customLogger": {
+      "scheduleLogger": {
+        "consoleLevel": "NONE",
+        "file": "d:\\kaitlyn\\chiyuu.cn\\logs\\egg-react-webpack-mpa-boilerplate\\egg-schedule.log"
+      }
+    },
+    "schedule": {
+      "directory": []
+    },
+    "multipart": {
+      "mode": "stream",
+      "autoFields": false,
+      "defaultCharset": "utf8",
+      "fieldNameSize": 100,
+      "fieldSize": 102400,
+      "fields": 10,
+      "fileSize": 10485760,
+      "files": 10,
+      "fileExtensions": [],
+      "whitelist": null,
+      "tmpdir": "C:\\Users\\18730\\AppData\\Local\\Temp\\egg-multipart-tmp\\egg-react-webpack-mpa-boilerplate",
+      "cleanSchedule": {
+        "cron": "0 30 4 * * *"
+      }
+    },
+    "development": {
+      "watchDirs": [
+        "build"
+      ],
+      "ignoreDirs": [
+        "app/web",
+        "public",
+        "config"
+      ],
+      "fastReady": false,
+      "reloadOnDebug": true,
+      "overrideDefault": false
+    },
+    "logrotator": {
+      "filesRotateByHour": null,
+      "hourDelimiter": "-",
+      "filesRotateBySize": null,
+      "maxFileSize": 52428800,
+      "maxFiles": 10,
+      "rotateDuration": 60000,
+      "maxDays": 31
+    },
+    "static": {
+      "prefix": "/public/",
+      "dir": "d:\\kaitlyn\\chiyuu.cn\\public",
+      "dynamic": true,
+      "preload": false,
+      "buffer": false,
+      "maxFiles": 1000,
+      "maxAge": 0
+    },
+    "view": {
+      "root": [
+        "d:\\kaitlyn\\chiyuu.cn\\app\\view"
+      ],
+      "cache": false,
+      "defaultExtension": ".html",
+      "defaultViewEngine": "",
+      "mapping": {
+        ".js": "react",
+        ".jsx": "react"
+      }
+    },
+    "reactssr": {
+      "doctype": "<!doctype html>",
+      "layout": "d:\\kaitlyn\\chiyuu.cn\\app\\web\\view\\layout.html",
+      "manifest": "d:\\kaitlyn\\chiyuu.cn\\config\\manifest.json",
+      "injectHeadRegex": "/(<\\/head>)/i",
+      "injectBodyRegex": "/(<\\/body>)/i",
+      "injectCss": true,
+      "injectJs": true,
+      "crossorigin": false,
+      "injectRes": [],
+      "mergeLocals": true,
+      "fallbackToClient": true,
+      "afterRender": "<Function afterRender>"
+    },
+    "cors": {
+      "origin": "<Function corsOrigin>"
+    },
+    "webpack": {
+      "port": 9000,
+      "proxy": {
+        "host": "http://127.0.0.1:9000",
+        "match": "/^\\/public\\//"
+      },
+      "webpackConfigList": [
+        {
+          "context": "d:\\kaitlyn\\chiyuu.cn",
+          "entry": {
+            "ant/tab/tab": [
+              "react-hot-loader/patch",
+              "d:\\kaitlyn\\chiyuu.cn\\node_modules\\webpack-hot-middleware/client?path=http://127.0.0.1:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "d:\\kaitlyn\\chiyuu.cn\\node_modules\\easywebpack\\utils\\hot.js",
+              "babel-loader!d:\\kaitlyn\\chiyuu.cn\\app\\web\\framework\\entry\\client-loader.js!d:\\kaitlyn\\chiyuu.cn\\app\\web\\page\\ant\\tab\\tab.jsx"
+            ],
+            "home/home": [
+              "react-hot-loader/patch",
+              "d:\\kaitlyn\\chiyuu.cn\\node_modules\\webpack-hot-middleware/client?path=http://127.0.0.1:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "d:\\kaitlyn\\chiyuu.cn\\node_modules\\easywebpack\\utils\\hot.js",
+              "babel-loader!d:\\kaitlyn\\chiyuu.cn\\app\\web\\framework\\entry\\client-loader.js!d:\\kaitlyn\\chiyuu.cn\\app\\web\\page\\home\\home.jsx"
+            ]
+          },
+          "output": {
+            "filename": "js/[name].js",
+            "chunkFilename": "js/chunk/[name].js",
+            "path": "d:\\kaitlyn\\chiyuu.cn\\public",
+            "publicPath": "/public/"
+          },
+          "resolve": {
+            "extensions": [
+              ".jsx",
+              ".js"
+            ],
+            "alias": {
+              "asset": "d:\\kaitlyn\\chiyuu.cn\\app\\web\\asset",
+              "component": "d:\\kaitlyn\\chiyuu.cn\\app\\web\\component",
+              "framework": "d:\\kaitlyn\\chiyuu.cn\\app\\web\\framework"
+            }
+          },
+          "externals": [],
+          "resolveLoader": {
+            "modules": [
+              "d:\\kaitlyn\\chiyuu.cn\\node_modules",
+              "d:\\kaitlyn\\chiyuu.cn\\node_modules\\easywebpack\\lib\\node_modules",
+              "d:\\kaitlyn\\chiyuu.cn\\node_modules\\easywebpack-react\\node_modules"
+            ]
+          },
+          "mode": "development",
+          "devtool": "eval",
+          "target": "web",
+          "node": {
+            "console": true,
+            "Buffer": false,
+            "setImmediate": false
+          },
+          "module": {
+            "rules": [
+              {
+                "test": {},
+                "exclude": {},
+                "use": [
+                  {
+                    "loader": "thread-loader",
+                    "options": {}
+                  },
+                  {
+                    "loader": "babel-loader",
+                    "options": {
+                      "cacheDirectory": "C:\\Users\\18730\\AppData\\Local\\Temp\\easywebpack\\egg-react-webpack-mpa-boilerplate\\dev\\cache\\client\\babel-loader"
+                    }
+                  }
+                ]
+              },
+              {
+                "test": {},
+                "use": [
+                  "d:\\kaitlyn\\chiyuu.cn\\node_modules\\mini-css-extract-plugin\\dist\\loader.js",
+                  {
+                    "options": {
+                      "sourceMap": true
+                    },
+                    "loader": "css-loader"
+                  },
+                  {
+                    "loader": "postcss-loader",
+                    "options": {
+                      "sourceMap": true
+                    }
+                  }
+                ],
+                "exclude": [
+                  {}
+                ]
+              },
+              {
+                "test": {},
+                "use": [
+                  {
+                    "loader": "url-loader",
+                    "options": {
+                      "limit": 1024,
+                      "name": "img/[name].[ext]"
+                    }
+                  }
+                ]
+              },
+              {
+                "test": {},
+                "use": [
+                  {
+                    "loader": "url-loader",
+                    "options": {
+                      "limit": 1024,
+                      "name": "media/[name].[ext]"
+                    }
+                  }
+                ]
+              },
+              {
+                "test": {},
+                "use": [
+                  {
+                    "loader": "url-loader",
+                    "options": {
+                      "limit": 1024,
+                      "name": "font/[name].[ext]"
+                    }
+                  }
+                ]
+              },
+              {
+                "test": "~config~webpack~webpackConfigList~0~module~rules~1~exclude~0",
+                "use": [
+                  "d:\\kaitlyn\\chiyuu.cn\\node_modules\\mini-css-extract-plugin\\dist\\loader.js",
+                  {
+                    "options": {
+                      "sourceMap": true,
+                      "modules": true,
+                      "importLoaders": 1
+                    },
+                    "loader": "css-loader"
+                  },
+                  {
+                    "loader": "postcss-loader",
+                    "options": {
+                      "sourceMap": true
+                    }
+                  }
+                ],
+                "include": [
+                  "~config~webpack~webpackConfigList~0~module~rules~1~exclude~0"
+                ]
+              }
+            ]
+          },
+          "plugins": [
+            {
+              "options": {},
+              "fullBuildTimeout": 200,
+              "requestTimeout": 10000,
+              "__plugin__": "HotModuleReplacementPlugin",
+              "__lable__": "hot"
+            },
+            {
+              "definitions": {},
+              "__plugin__": "ProvidePlugin",
+              "__lable__": "provide"
+            },
+            {
+              "definitions": {
+                "process.env.NODE_ENV": "\"development\"",
+                "EASY_ENV": "\"dev\"",
+                "EASY_ENV_IS_DEV": true,
+                "EASY_ENV_IS_TEST": false,
+                "EASY_ENV_IS_PROD": false,
+                "EASY_ENV_IS_BROWSER": true,
+                "EASY_ENV_IS_NODE": false,
+                "EASY_ENV_LOCAL_PUBLIC_PATH": "\"/public/\"",
+                "EASY_ENV_PUBLIC_PATH": "\"/public/\"",
+                "EASY_ENV_HOST_URL": "\"http://127.0.0.1:9000\""
+              },
+              "__plugin__": "DefinePlugin",
+              "__lable__": "define"
+            },
+            {
+              "opts": {
+                "basePath": "",
+                "absPath": "",
+                "fileName": "..\\config\\manifest.json",
+                "commonsChunk": [
+                  "runtime",
+                  "default",
+                  "common"
+                ],
+                "transformExtensions": {},
+                "asset": true,
+                "writeToFileEmit": true,
+                "seed": null,
+                "filter": null,
+                "map": null,
+                "generate": null,
+                "sort": null,
+                "baseDir": "d:\\kaitlyn\\chiyuu.cn",
+                "host": "http://127.0.0.1:9000",
+                "proxy": true,
+                "buildPath": "d:\\kaitlyn\\chiyuu.cn\\public",
+                "publicPath": "/public/",
+                "localPublicPath": "/public/",
+                "assets": false,
+                "dllDir": "C:\\Users\\18730\\AppData\\Local\\Temp\\easywebpack\\egg-react-webpack-mpa-boilerplate\\dev\\dll",
+                "filepath": "d:\\kaitlyn\\chiyuu.cn\\config\\manifest.json",
+                "dllConfig": [
+                  {
+                    "name": "vendor",
+                    "lib": [
+                      "react",
+                      "react-dom"
+                    ]
+                  }
+                ],
+                "dllChunk": {
+                  "names": [
+                    "vendor"
+                  ],
+                  "chunks": [
+                    {
+                      "id": "vendor.js",
+                      "name": "vendor",
+                      "outputName": "js/vendor.js",
+                      "outputPath": "/public/js/vendor.js",
+                      "filepath": "C:\\Users\\18730\\AppData\\Local\\Temp\\easywebpack\\egg-react-webpack-mpa-boilerplate\\dev\\dll\\file\\js\\vendor.js"
+                    }
+                  ],
+                  "dll": [
+                    {
+                      "name": "vendor",
+                      "lib": [
+                        "react",
+                        "react-dom"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "isRunned": false,
+              "__plugin__": "webpack-manifest-resource-plugin",
+              "__lable__": "manifest"
+            },
+            {
+              "profile": false,
+              "modulesCount": 500,
+              "showEntries": false,
+              "showModules": true,
+              "showActiveModules": true,
+              "__plugin__": "progress-bar-webpack-plugin",
+              "__lable__": "progress"
+            },
+            {
+              "options": {
+                "filename": "css/[name].css",
+                "chunkFilename": "css/[id].css"
+              },
+              "__plugin__": "mini-css-extract-plugin",
+              "__lable__": "extract"
+            },
+            {
+              "options": {},
+              "pathCache": {},
+              "fsOperations": 0,
+              "primed": false,
+              "__plugin__": "case-sensitive-paths-webpack-plugin",
+              "__lable__": "case"
+            },
+            {
+              "exclude": [
+                {}
+              ],
+              "__plugin__": "webpack-filter-warnings-plugin",
+              "__lable__": "filter"
+            },
+            {
+              "opts": {
+                "assets": [
+                  {
+                    "id": "vendor.js",
+                    "name": "vendor",
+                    "outputName": "js/vendor.js",
+                    "outputPath": "/public/js/vendor.js",
+                    "filepath": "C:\\Users\\18730\\AppData\\Local\\Temp\\easywebpack\\egg-react-webpack-mpa-boilerplate\\dev\\dll\\file\\js\\vendor.js"
+                  }
+                ]
+              },
+              "__plugin__": "AssetFileWebpackPlugin",
+              "__lable__": "dllAsset"
+            },
+            {
+              "options": {
+                "context": "d:\\kaitlyn\\chiyuu.cn",
+                "manifest": {
+                  "name": "vendor",
+                  "content": {
+                    "./node_modules/date-now/index.js": {
+                      "id": "./node_modules/date-now/index.js",
+                      "buildMeta": {
+                        "providedExports": true
+                      }
+                    },
+                    "./node_modules/react/cjs/react.development.js": {
+                      "id": "./node_modules/react/cjs/react.development.js",
+                      "buildMeta": {
+                        "providedExports": true
+                      }
+                    },
+                    "./node_modules/console-browserify/index.js": {
+                      "id": "./node_modules/console-browserify/index.js",
+                      "buildMeta": {
+                        "providedExports": true
+                      }
+                    },
+                    "./node_modules/webpack/buildin/global.js": {
+                      "id": "./node_modules/webpack/buildin/global.js",
+                      "buildMeta": {
+                        "providedExports": true
+                      }
+                    },
+                    "./node_modules/util/util.js": {
+                      "id": "./node_modules/util/util.js",
+                      "buildMeta": {
+                        "providedExports": true
+                      }
+                    },
+                    "./node_modules/node-libs-browser/node_modules/process/browser.js": {
+                      "id": "./node_modules/node-libs-browser/node_modules/process/browser.js",
+                      "buildMeta": {
+                        "providedExports": true
+                      }
+                    },
+                    "./node_modules/util/support/isBufferBrowser.js": {
+                      "id": "./node_modules/util/support/isBufferBrowser.js",
+                      "buildMeta": {
+                        "providedExports": true
+                      }
+                    },
+                    "./node_modules/inherits/inherits_browser.js": {
+                      "id": "./node_modules/inherits/inherits_browser.js",
+                      "buildMeta": {
+                        "providedExports": true
+                      }
+                    },
+                    "./node_modules/assert/assert.js": {
+                      "id": "./node_modules/assert/assert.js",
+                      "buildMeta": {
+                        "providedExports": true
+                      }
+                    },
+                    "./node_modules/react/index.js": {
+                      "id": "./node_modules/react/index.js",
+                      "buildMeta": {
+                        "providedExports": true
+                      }
+                    },
+                    "./node_modules/object-assign/index.js": {
+                      "id": "./node_modules/object-assign/index.js",
+                      "buildMeta": {
+                        "providedExports": true
+                      }
+                    },
+                    "./node_modules/prop-types/checkPropTypes.js": {
+                      "id": "./node_modules/prop-types/checkPropTypes.js",
+                      "buildMeta": {
+                        "providedExports": true
+                      }
+                    },
+                    "./node_modules/prop-types/lib/ReactPropTypesSecret.js": {
+                      "id": "./node_modules/prop-types/lib/ReactPropTypesSecret.js",
+                      "buildMeta": {
+                        "providedExports": true
+                      }
+                    },
+                    "./node_modules/react-dom/index.js": {
+                      "id": "./node_modules/react-dom/index.js",
+                      "buildMeta": {
+                        "providedExports": true
+                      }
+                    },
+                    "./node_modules/react-dom/cjs/react-dom.development.js": {
+                      "id": "./node_modules/react-dom/cjs/react-dom.development.js",
+                      "buildMeta": {
+                        "providedExports": true
+                      }
+                    },
+                    "./node_modules/scheduler/index.js": {
+                      "id": "./node_modules/scheduler/index.js",
+                      "buildMeta": {
+                        "providedExports": true
+                      }
+                    },
+                    "./node_modules/scheduler/cjs/scheduler.development.js": {
+                      "id": "./node_modules/scheduler/cjs/scheduler.development.js",
+                      "buildMeta": {
+                        "providedExports": true
+                      }
+                    },
+                    "./node_modules/scheduler/tracing.js": {
+                      "id": "./node_modules/scheduler/tracing.js",
+                      "buildMeta": {
+                        "providedExports": true
+                      }
+                    },
+                    "./node_modules/scheduler/cjs/scheduler-tracing.development.js": {
+                      "id": "./node_modules/scheduler/cjs/scheduler-tracing.development.js",
+                      "buildMeta": {
+                        "providedExports": true
+                      }
+                    }
+                  }
+                }
+              },
+              "__plugin__": "DllReferencePlugin",
+              "__lable__": "vendorDllReference"
+            }
+          ],
+          "optimization": {
+            "namedModules": true,
+            "namedChunks": true,
+            "runtimeChunk": {
+              "name": "runtime"
+            },
+            "splitChunks": {
+              "name": false,
+              "chunks": "all",
+              "minSize": 10000,
+              "minChunks": 2,
+              "cacheGroups": {
+                "default": false,
+                "vendors": {
+                  "name": "common",
+                  "chunks": "all",
+                  "minChunks": 2
+                },
+                "styles": {
+                  "name": "common",
+                  "chunks": "all",
+                  "minChunks": 2,
+                  "test": {},
+                  "enforce": true,
+                  "priority": 50
+                }
+              }
+            }
+          }
+        },
+        {
+          "context": "d:\\kaitlyn\\chiyuu.cn",
+          "entry": {
+            "ant/tab/tab": "babel-loader!d:\\kaitlyn\\chiyuu.cn\\app\\web\\framework\\entry\\server-loader.js!d:\\kaitlyn\\chiyuu.cn\\app\\web\\page\\ant\\tab\\tab.jsx",
+            "home/home": "babel-loader!d:\\kaitlyn\\chiyuu.cn\\app\\web\\framework\\entry\\server-loader.js!d:\\kaitlyn\\chiyuu.cn\\app\\web\\page\\home\\home.jsx"
+          },
+          "output": {
+            "libraryTarget": "commonjs",
+            "filename": "[name].js",
+            "path": "d:\\kaitlyn\\chiyuu.cn\\app\\view",
+            "publicPath": "/public/"
+          },
+          "resolve": {
+            "extensions": [
+              ".jsx",
+              ".js"
+            ],
+            "alias": {
+              "asset": "d:\\kaitlyn\\chiyuu.cn\\app\\web\\asset",
+              "component": "d:\\kaitlyn\\chiyuu.cn\\app\\web\\component",
+              "framework": "d:\\kaitlyn\\chiyuu.cn\\app\\web\\framework"
+            }
+          },
+          "externals": [
+            null
+          ],
+          "resolveLoader": {
+            "modules": [
+              "d:\\kaitlyn\\chiyuu.cn\\node_modules",
+              "d:\\kaitlyn\\chiyuu.cn\\node_modules\\easywebpack\\lib\\node_modules",
+              "d:\\kaitlyn\\chiyuu.cn\\node_modules\\easywebpack-react\\node_modules"
+            ]
+          },
+          "mode": "development",
+          "devtool": "eval",
+          "target": "node",
+          "node": {
+            "__filename": false,
+            "__dirname": false,
+            "console": true,
+            "Buffer": false,
+            "setImmediate": false
+          },
+          "module": {
+            "rules": [
+              {
+                "test": {},
+                "exclude": {},
+                "use": [
+                  {
+                    "loader": "thread-loader",
+                    "options": {}
+                  },
+                  {
+                    "loader": "babel-loader",
+                    "options": {
+                      "cacheDirectory": "C:\\Users\\18730\\AppData\\Local\\Temp\\easywebpack\\egg-react-webpack-mpa-boilerplate\\dev\\cache\\server\\babel-loader"
+                    }
+                  }
+                ]
+              },
+              {
+                "test": {},
+                "use": [
+                  {
+                    "loader": "isomorphic-style-loader"
+                  },
+                  {
+                    "loader": "css-loader",
+                    "options": {}
+                  },
+                  {
+                    "loader": "postcss-loader",
+                    "options": {}
+                  }
+                ],
+                "exclude": [
+                  {}
+                ]
+              },
+              {
+                "test": {},
+                "use": [
+                  {
+                    "loader": "url-loader",
+                    "options": {
+                      "limit": 1024,
+                      "name": "img/[name].[ext]"
+                    }
+                  }
+                ]
+              },
+              {
+                "test": {},
+                "use": [
+                  {
+                    "loader": "url-loader",
+                    "options": {
+                      "limit": 1024,
+                      "name": "media/[name].[ext]"
+                    }
+                  }
+                ]
+              },
+              {
+                "test": {},
+                "use": [
+                  {
+                    "loader": "url-loader",
+                    "options": {
+                      "limit": 1024,
+                      "name": "font/[name].[ext]"
+                    }
+                  }
+                ]
+              },
+              {
+                "test": "~config~webpack~webpackConfigList~1~module~rules~1~exclude~0",
+                "use": [
+                  {
+                    "loader": "isomorphic-style-loader",
+                    "options": {}
+                  },
+                  {
+                    "loader": "css-loader",
+                    "options": {
+                      "modules": true,
+                      "importLoaders": 1
+                    }
+                  },
+                  {
+                    "loader": "postcss-loader",
+                    "options": {}
+                  }
+                ],
+                "include": [
+                  "~config~webpack~webpackConfigList~1~module~rules~1~exclude~0"
+                ]
+              }
+            ]
+          },
+          "plugins": [
+            {
+              "definitions": {},
+              "__plugin__": "ProvidePlugin",
+              "__lable__": "provide"
+            },
+            {
+              "definitions": {
+                "process.env.NODE_ENV": "\"development\"",
+                "EASY_ENV": "\"dev\"",
+                "EASY_ENV_IS_DEV": true,
+                "EASY_ENV_IS_TEST": false,
+                "EASY_ENV_IS_PROD": false,
+                "EASY_ENV_IS_BROWSER": false,
+                "EASY_ENV_IS_NODE": true,
+                "EASY_ENV_LOCAL_PUBLIC_PATH": "\"/public/\"",
+                "EASY_ENV_PUBLIC_PATH": "\"/public/\"",
+                "EASY_ENV_HOST_URL": "\"http://127.0.0.1:9000\""
+              },
+              "__plugin__": "DefinePlugin",
+              "__lable__": "define"
+            },
+            {
+              "profile": false,
+              "modulesCount": 500,
+              "showEntries": false,
+              "showModules": true,
+              "showActiveModules": true,
+              "__plugin__": "progress-bar-webpack-plugin",
+              "__lable__": "progress"
+            },
+            {
+              "options": {},
+              "pathCache": {},
+              "fsOperations": 0,
+              "primed": false,
+              "__plugin__": "case-sensitive-paths-webpack-plugin",
+              "__lable__": "case"
+            },
+            {
+              "exclude": [
+                {}
+              ],
+              "__plugin__": "webpack-filter-warnings-plugin",
+              "__lable__": "filter"
+            }
+          ],
+          "optimization": {}
+        }
+      ]
+    },
+    "webpackreact": {},
+    "env": "local",
+    "name": "egg-react-webpack-mpa-boilerplate",
+    "keys": "<String len: 6>",
+    "proxy": false,
+    "protocolHeaders": "x-forwarded-proto",
+    "ipHeaders": "x-forwarded-for",
+    "hostHeaders": "",
+    "pkg": {
+      "name": "egg-react-webpack-mpa-boilerplate",
+      "version": "2.0.0",
+      "description": "基于 easywebpack-react 和 egg-view-react-ssr 插件服务端渲染工程骨架项目",
+      "scripts": {
+        "build": "easy build",
+        "dev": "egg-bin dev",
+        "start": "egg-scripts start",
+        "debug": "egg-bin debug",
+        "clean": "easy clean",
+        "kill-port": "kill -9 $(lsof -i:8888 |grep 'node'|aw '{print $2}') ",
+        "lint": "eslint .",
+        "fix": "eslint --fix .",
+        "ii": "npm install --registry https://registry.npm.taobao.org"
+      },
+      "dependencies": {
+        "antd": "^3.0.3",
+        "cross-env": "^5.0.0",
+        "egg": "^2.1.0",
+        "egg-cors": "^2.0.0",
+        "egg-logger": "^1.5.0",
+        "egg-scripts": "^2.10.0",
+        "egg-validate": "^1.0.0",
+        "egg-view-react-ssr": "^2.1.0",
+        "extend": "\\x7e3.0.0",
+        "history": "^4.7.2",
+        "lodash": "^4.17.4",
+        "mockjs": "^1.0.1-beta3",
+        "moment": "^2.17.1",
+        "react": "^16.0.0",
+        "react-dom": "^16.0.0",
+        "react-redux": "^5.0.6",
+        "react-router": "^4.2.0",
+        "react-router-config": "^1.0.0-beta.4",
+        "react-router-dom": "^4.2.2",
+        "react-router-redux": "^4.0.8",
+        "redux": "^3.7.2"
+      },
+      "devDependencies": {
+        "autod-egg": "^1.0.0",
+        "babel-preset-react": "^6.24.1",
+        "easywebpack-cli": "^4.0.0",
+        "easywebpack-react": "^4.0.0",
+        "egg-bin": "^4.11.1",
+        "egg-webpack": "^4.0.0",
+        "egg-webpack-react": "^2.0.0",
+        "eslint-config-egg": "^5.1.1",
+        "eslint-plugin-react": "^7.1.0",
+        "imagemin-webpack-plugin": "^1.5.2",
+        "ip": "^1.1.5"
+      },
+      "engines": {
+        "node": ">=6.0.0"
+      },
+      "ci": {
+        "version": "6, 8, 9"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/hubcarl/egg-react-webpack-boilerplate.git"
+      },
+      "author": "hubcarl@126.com",
+      "license": "MIT",
+      "homepage": "https://github.com/hubcarl/egg-react-webpack-boilerplate"
+    },
+    "baseDir": "d:\\kaitlyn\\chiyuu.cn",
+    "HOME": "C:\\Users\\18730",
+    "rundir": "d:\\kaitlyn\\chiyuu.cn\\run",
+    "dump": {
+      "ignore": "<Set>"
+    },
+    "confusedConfigurations": {
+      "bodyparser": "bodyParser",
+      "notFound": "notfound",
+      "sitefile": "siteFile",
+      "middlewares": "middleware",
+      "httpClient": "httpclient"
+    },
+    "notfound": {
+      "pageUrl": ""
+    },
+    "siteFile": {
+      "/favicon.ico": "<Buffer len: 4286>"
+    },
+    "bodyParser": {
+      "enable": true,
+      "encoding": "utf8",
+      "formLimit": "100kb",
+      "jsonLimit": "100kb",
+      "strict": true,
+      "queryString": {
+        "arrayLimit": 100,
+        "depth": 5,
+        "parameterLimit": 1000
+      },
+      "returnRawBody": true
+    },
+    "logger": {
+      "dir": "d:\\kaitlyn\\chiyuu.cn\\logs",
+      "encoding": "utf8",
+      "env": "local",
+      "level": "INFO",
+      "consoleLevel": "DEBUG",
+      "disableConsoleAfterReady": false,
+      "outputJSON": false,
+      "buffer": true,
+      "appLogName": "egg-react-webpack-mpa-boilerplate-web.log",
+      "coreLogName": "egg-web.log",
+      "agentLogName": "egg-agent.log",
+      "errorLogName": "common-error.log",
+      "coreLogger": {
+        "consoleLevel": "WARN"
+      },
+      "allowDebugAtProd": false,
+      "type": "application"
+    },
+    "httpclient": {
+      "enableDNSCache": false,
+      "dnsCacheLookupInterval": 10000,
+      "dnsCacheMaxLength": 1000,
+      "request": {
+        "timeout": 5000
+      },
+      "httpAgent": {
+        "keepAlive": true,
+        "freeSocketTimeout": 4000,
+        "maxSockets": 9007199254740991,
+        "maxFreeSockets": 256
+      },
+      "httpsAgent": {
+        "keepAlive": true,
+        "freeSocketTimeout": 4000,
+        "maxSockets": 9007199254740991,
+        "maxFreeSockets": 256
+      }
+    },
+    "meta": {
+      "enable": true,
+      "logging": false
+    },
+    "coreMiddleware": [
+      "cors",
+      "meta",
+      "siteFile",
+      "notfound",
+      "static",
+      "bodyParser",
+      "overrideMethod",
+      "session",
+      "securities",
+      "i18n",
+      "eggLoaderTrace"
+    ],
+    "workerStartTimeout": 600000,
+    "serverTimeout": null,
+    "cluster": {
+      "listen": {
+        "path": "",
+        "port": 7001,
+        "hostname": ""
+      }
+    },
+    "clusterClient": {
+      "maxWaitTime": 60000,
+      "responseTimeout": 60000
+    },
+    "onClientError": null,
+    "middleware": [
+      "access"
+    ],
+    "coreMiddlewares": "~config~coreMiddleware",
+    "appMiddlewares": "~config~middleware",
+    "appMiddleware": "~config~middleware",
+    "multipartParseOptions": {
+      "autoFields": false,
+      "defCharset": "utf8",
+      "limits": {
+        "fieldNameSize": 100,
+        "fieldSize": 102400,
+        "fields": 10,
+        "fileSize": 10485760,
+        "files": 10
+      },
+      "checkFile": "<Function checkFile>"
+    }
+  },
+  "plugins": {
+    "session": {
+      "enable": true,
+      "package": "egg-session",
+      "name": "session",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\plugin.js",
+      "path": "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-session",
+      "version": "3.1.0"
+    },
+    "security": {
+      "enable": true,
+      "package": "egg-security",
+      "name": "security",
+      "dependencies": [],
+      "optionalDependencies": [
+        "session"
+      ],
+      "env": [],
+      "from": "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\plugin.js",
+      "path": "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-security",
+      "version": "2.5.0"
+    },
+    "jsonp": {
+      "enable": true,
+      "package": "egg-jsonp",
+      "name": "jsonp",
+      "dependencies": [],
+      "optionalDependencies": [
+        "security"
+      ],
+      "env": [],
+      "from": "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\plugin.js",
+      "path": "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-jsonp",
+      "version": "2.0.0"
+    },
+    "onerror": {
+      "enable": true,
+      "package": "egg-onerror",
+      "name": "onerror",
+      "dependencies": [],
+      "optionalDependencies": [
+        "jsonp"
+      ],
+      "env": [],
+      "from": "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\plugin.js",
+      "path": "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-onerror",
+      "version": "2.1.0"
+    },
+    "i18n": {
+      "enable": true,
+      "package": "egg-i18n",
+      "name": "i18n",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\plugin.js",
+      "path": "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-i18n",
+      "version": "2.0.0"
+    },
+    "watcher": {
+      "enable": true,
+      "package": "egg-watcher",
+      "name": "watcher",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\plugin.js",
+      "path": "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-watcher",
+      "version": "3.1.0"
+    },
+    "schedule": {
+      "enable": true,
+      "package": "egg-schedule",
+      "name": "schedule",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\plugin.js",
+      "path": "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-schedule",
+      "version": "3.6.0"
+    },
+    "multipart": {
+      "enable": true,
+      "package": "egg-multipart",
+      "name": "multipart",
+      "dependencies": [],
+      "optionalDependencies": [
+        "schedule"
+      ],
+      "env": [],
+      "from": "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\plugin.js",
+      "path": "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-multipart",
+      "version": "2.4.0"
+    },
+    "development": {
+      "enable": true,
+      "package": "egg-development",
+      "name": "development",
+      "dependencies": [
+        "watcher"
+      ],
+      "optionalDependencies": [],
+      "env": [
+        "local"
+      ],
+      "from": "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\plugin.js",
+      "path": "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-development",
+      "version": "2.4.2"
+    },
+    "logrotator": {
+      "enable": true,
+      "package": "egg-logrotator",
+      "name": "logrotator",
+      "dependencies": [
+        "schedule"
+      ],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\plugin.js",
+      "path": "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-logrotator",
+      "version": "3.0.7"
+    },
+    "static": {
+      "enable": true,
+      "package": "egg-static",
+      "name": "static",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "d:\\kaitlyn\\chiyuu.cn\\config\\plugin.js",
+      "path": "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-static",
+      "version": "2.2.0"
+    },
+    "view": {
+      "enable": true,
+      "package": "egg-view",
+      "name": "view",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\plugin.js",
+      "path": "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-view",
+      "version": "2.1.2"
+    },
+    "reactssr": {
+      "enable": true,
+      "package": "egg-view-react-ssr",
+      "name": "reactssr",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "d:\\kaitlyn\\chiyuu.cn\\config\\plugin.js",
+      "path": "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-view-react-ssr",
+      "version": "2.4.1"
+    },
+    "cors": {
+      "enable": true,
+      "package": "egg-cors",
+      "name": "cors",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "d:\\kaitlyn\\chiyuu.cn\\config\\plugin.local.js",
+      "path": "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-cors",
+      "version": "2.2.0"
+    },
+    "webpack": {
+      "enable": true,
+      "package": "egg-webpack",
+      "name": "webpack",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [
+        "local"
+      ],
+      "from": "d:\\kaitlyn\\chiyuu.cn\\config\\plugin.local.js",
+      "path": "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-webpack",
+      "version": "4.4.9"
+    },
+    "webpackreact": {
+      "enable": true,
+      "package": "egg-webpack-react",
+      "name": "webpackreact",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [
+        "local"
+      ],
+      "from": "d:\\kaitlyn\\chiyuu.cn\\config\\plugin.local.js",
+      "path": "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-webpack-react",
+      "version": "2.0.2"
+    }
+  }
+}
