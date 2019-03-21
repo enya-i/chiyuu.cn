@@ -1,0 +1,29 @@
+.works-comp {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  overflow-y: scroll;
+}
+.works-container{
+  max-width: 1400px;
+  text-align: left;
+}
+.works-comp-title {
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 56px;
+}
+
+.works-title-sub {
+  color: rgba(255, 255, 255, .5);
+}
+.works-item{
+  width: 450px;
+  display: inline-block;
+  margin: 0 24px 48px 0;
+}
+.works-item:nth-child(3n){
+  margin-right: 0;
+}

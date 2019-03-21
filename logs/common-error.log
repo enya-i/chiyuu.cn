@@ -52,3 +52,21 @@ name: "MODULE_NOT_FOUNDError"
 pid: 12844
 hostname: kaitlyn-hp
 
+2019-03-20 20:26:38,515 ERROR 6320 [-/127.0.0.1/-/28ms GET /] nodejs.ReferenceError: props is not defined
+    at Works.render (webpack:///./app/web/page/home/component/WorkItem.jsx?:46:11)
+    at processChild (D:\kaitlyn\chiyuu.cn\node_modules\react-dom\cjs\react-dom-server.node.development.js:2942:18)
+    at resolve (D:\kaitlyn\chiyuu.cn\node_modules\react-dom\cjs\react-dom-server.node.development.js:2795:5)
+    at ReactDOMServerRenderer.render (D:\kaitlyn\chiyuu.cn\node_modules\react-dom\cjs\react-dom-server.node.development.js:3185:22)
+    at ReactDOMServerRenderer.read (D:\kaitlyn\chiyuu.cn\node_modules\react-dom\cjs\react-dom-server.node.development.js:3144:29)
+    at Object.renderToString (D:\kaitlyn\chiyuu.cn\node_modules\react-dom\cjs\react-dom-server.node.development.js:3629:27)
+    at Engine.renderToString (D:\kaitlyn\chiyuu.cn\node_modules\egg-view-react-ssr\lib\engine.js:130:27)
+    at Engine.renderElement (D:\kaitlyn\chiyuu.cn\node_modules\egg-view-react-ssr\lib\engine.js:100:35)
+    at D:\kaitlyn\chiyuu.cn\node_modules\egg-webpack-react\app.js:28:26
+    at Generator.next (<anonymous>)
+    at onFulfilled (D:\kaitlyn\chiyuu.cn\node_modules\co\index.js:65:19)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 6320
+hostname: kaitlyn-hp
+

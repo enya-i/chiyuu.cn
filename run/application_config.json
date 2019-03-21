@@ -96,29 +96,29 @@
     "onerror": {
       "errorPageUrl": "",
       "appErrorFilter": null,
-      "templatePath": "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-onerror\\lib\\onerror_page.mustache"
+      "templatePath": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-onerror\\lib\\onerror_page.mustache"
     },
     "i18n": {
       "defaultLocale": "en_US",
       "dirs": [
-        "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-session\\config\\locales",
-        "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-security\\config\\locales",
-        "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-jsonp\\config\\locales",
-        "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-onerror\\config\\locales",
-        "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-i18n\\config\\locales",
-        "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-watcher\\config\\locales",
-        "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-schedule\\config\\locales",
-        "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-multipart\\config\\locales",
-        "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-development\\config\\locales",
-        "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-logrotator\\config\\locales",
-        "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-static\\config\\locales",
-        "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-view\\config\\locales",
-        "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-view-react-ssr\\config\\locales",
-        "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-cors\\config\\locales",
-        "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-webpack\\config\\locales",
-        "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-webpack-react\\config\\locales",
-        "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\locales",
-        "d:\\kaitlyn\\chiyuu.cn\\config\\locales"
+        "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-session\\config\\locales",
+        "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-security\\config\\locales",
+        "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-jsonp\\config\\locales",
+        "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-onerror\\config\\locales",
+        "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-i18n\\config\\locales",
+        "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-watcher\\config\\locales",
+        "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-schedule\\config\\locales",
+        "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-multipart\\config\\locales",
+        "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-development\\config\\locales",
+        "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-logrotator\\config\\locales",
+        "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-static\\config\\locales",
+        "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-view\\config\\locales",
+        "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-view-react-ssr\\config\\locales",
+        "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-cors\\config\\locales",
+        "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-webpack\\config\\locales",
+        "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-webpack-react\\config\\locales",
+        "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\locales",
+        "D:\\kaitlyn\\chiyuu.cn\\config\\locales"
       ],
       "queryField": "locale",
       "cookieField": "locale",
@@ -128,14 +128,14 @@
     "watcher": {
       "type": "development",
       "eventSources": {
-        "default": "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-watcher\\lib\\event-sources\\default",
-        "development": "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-watcher\\lib\\event-sources\\development"
+        "default": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-watcher\\lib\\event-sources\\default",
+        "development": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-watcher\\lib\\event-sources\\development"
       }
     },
     "customLogger": {
       "scheduleLogger": {
         "consoleLevel": "NONE",
-        "file": "d:\\kaitlyn\\chiyuu.cn\\logs\\egg-react-webpack-mpa-boilerplate\\egg-schedule.log"
+        "file": "D:\\kaitlyn\\chiyuu.cn\\logs\\egg-react-webpack-mpa-boilerplate\\egg-schedule.log"
       }
     },
     "schedule": {
@@ -181,7 +181,7 @@
     },
     "static": {
       "prefix": "/public/",
-      "dir": "d:\\kaitlyn\\chiyuu.cn\\public",
+      "dir": "D:\\kaitlyn\\chiyuu.cn\\public",
       "dynamic": true,
       "preload": false,
       "buffer": false,
@@ -190,7 +190,7 @@
     },
     "view": {
       "root": [
-        "d:\\kaitlyn\\chiyuu.cn\\app\\view"
+        "D:\\kaitlyn\\chiyuu.cn\\app\\view"
       ],
       "cache": false,
       "defaultExtension": ".html",
@@ -202,8 +202,8 @@
     },
     "reactssr": {
       "doctype": "<!doctype html>",
-      "layout": "d:\\kaitlyn\\chiyuu.cn\\app\\web\\view\\layout.html",
-      "manifest": "d:\\kaitlyn\\chiyuu.cn\\config\\manifest.json",
+      "layout": "D:\\kaitlyn\\chiyuu.cn\\app\\web\\view\\layout.html",
+      "manifest": "D:\\kaitlyn\\chiyuu.cn\\config\\manifest.json",
       "injectHeadRegex": "/(<\\/head>)/i",
       "injectBodyRegex": "/(<\\/body>)/i",
       "injectCss": true,
@@ -225,19 +225,19 @@
       },
       "webpackConfigList": [
         {
-          "context": "d:\\kaitlyn\\chiyuu.cn",
+          "context": "D:\\kaitlyn\\chiyuu.cn",
           "entry": {
             "home/home": [
               "react-hot-loader/patch",
-              "d:\\kaitlyn\\chiyuu.cn\\node_modules\\webpack-hot-middleware/client?path=http://127.0.0.1:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
-              "d:\\kaitlyn\\chiyuu.cn\\node_modules\\easywebpack\\utils\\hot.js",
-              "babel-loader!d:\\kaitlyn\\chiyuu.cn\\app\\web\\framework\\entry\\client-loader.js!d:\\kaitlyn\\chiyuu.cn\\app\\web\\page\\home\\home.jsx"
+              "D:\\kaitlyn\\chiyuu.cn\\node_modules\\webpack-hot-middleware/client?path=http://127.0.0.1:9002/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "D:\\kaitlyn\\chiyuu.cn\\node_modules\\easywebpack\\utils\\hot.js",
+              "babel-loader!D:\\kaitlyn\\chiyuu.cn\\app\\web\\framework\\entry\\client-loader.js!D:\\kaitlyn\\chiyuu.cn\\app\\web\\page\\home\\home.jsx"
             ]
           },
           "output": {
             "filename": "js/[name].js",
             "chunkFilename": "js/chunk/[name].js",
-            "path": "d:\\kaitlyn\\chiyuu.cn\\public",
+            "path": "D:\\kaitlyn\\chiyuu.cn\\public",
             "publicPath": "/public/"
           },
           "resolve": {
@@ -246,17 +246,17 @@
               ".js"
             ],
             "alias": {
-              "asset": "d:\\kaitlyn\\chiyuu.cn\\app\\web\\asset",
-              "component": "d:\\kaitlyn\\chiyuu.cn\\app\\web\\component",
-              "framework": "d:\\kaitlyn\\chiyuu.cn\\app\\web\\framework"
+              "asset": "D:\\kaitlyn\\chiyuu.cn\\app\\web\\asset",
+              "component": "D:\\kaitlyn\\chiyuu.cn\\app\\web\\component",
+              "framework": "D:\\kaitlyn\\chiyuu.cn\\app\\web\\framework"
             }
           },
           "externals": [],
           "resolveLoader": {
             "modules": [
-              "d:\\kaitlyn\\chiyuu.cn\\node_modules",
-              "d:\\kaitlyn\\chiyuu.cn\\node_modules\\easywebpack\\lib\\node_modules",
-              "d:\\kaitlyn\\chiyuu.cn\\node_modules\\easywebpack-react\\node_modules"
+              "D:\\kaitlyn\\chiyuu.cn\\node_modules",
+              "D:\\kaitlyn\\chiyuu.cn\\node_modules\\easywebpack\\lib\\node_modules",
+              "D:\\kaitlyn\\chiyuu.cn\\node_modules\\easywebpack-react\\node_modules"
             ]
           },
           "mode": "development",
@@ -288,7 +288,7 @@
               {
                 "test": {},
                 "use": [
-                  "d:\\kaitlyn\\chiyuu.cn\\node_modules\\mini-css-extract-plugin\\dist\\loader.js",
+                  "D:\\kaitlyn\\chiyuu.cn\\node_modules\\mini-css-extract-plugin\\dist\\loader.js",
                   {
                     "options": {
                       "sourceMap": true
@@ -345,7 +345,7 @@
               {
                 "test": "~config~webpack~webpackConfigList~0~module~rules~1~exclude~0",
                 "use": [
-                  "d:\\kaitlyn\\chiyuu.cn\\node_modules\\mini-css-extract-plugin\\dist\\loader.js",
+                  "D:\\kaitlyn\\chiyuu.cn\\node_modules\\mini-css-extract-plugin\\dist\\loader.js",
                   {
                     "options": {
                       "sourceMap": true,
@@ -391,7 +391,7 @@
                 "EASY_ENV_IS_NODE": false,
                 "EASY_ENV_LOCAL_PUBLIC_PATH": "\"/public/\"",
                 "EASY_ENV_PUBLIC_PATH": "\"/public/\"",
-                "EASY_ENV_HOST_URL": "\"http://127.0.0.1:9000\""
+                "EASY_ENV_HOST_URL": "\"http://127.0.0.1:9002\""
               },
               "__plugin__": "DefinePlugin",
               "__lable__": "define"
@@ -414,15 +414,15 @@
                 "map": null,
                 "generate": null,
                 "sort": null,
-                "baseDir": "d:\\kaitlyn\\chiyuu.cn",
-                "host": "http://127.0.0.1:9000",
+                "baseDir": "D:\\kaitlyn\\chiyuu.cn",
+                "host": "http://127.0.0.1:9002",
                 "proxy": true,
-                "buildPath": "d:\\kaitlyn\\chiyuu.cn\\public",
+                "buildPath": "D:\\kaitlyn\\chiyuu.cn\\public",
                 "publicPath": "/public/",
                 "localPublicPath": "/public/",
                 "assets": false,
                 "dllDir": "C:\\Users\\18730\\AppData\\Local\\Temp\\easywebpack\\egg-react-webpack-mpa-boilerplate\\dev\\dll",
-                "filepath": "d:\\kaitlyn\\chiyuu.cn\\config\\manifest.json",
+                "filepath": "D:\\kaitlyn\\chiyuu.cn\\config\\manifest.json",
                 "dllConfig": [
                   {
                     "name": "vendor",
@@ -509,7 +509,7 @@
             },
             {
               "options": {
-                "context": "d:\\kaitlyn\\chiyuu.cn",
+                "context": "D:\\kaitlyn\\chiyuu.cn",
                 "manifest": {
                   "name": "vendor",
                   "content": {
@@ -665,14 +665,14 @@
           }
         },
         {
-          "context": "d:\\kaitlyn\\chiyuu.cn",
+          "context": "D:\\kaitlyn\\chiyuu.cn",
           "entry": {
-            "home/home": "babel-loader!d:\\kaitlyn\\chiyuu.cn\\app\\web\\framework\\entry\\server-loader.js!d:\\kaitlyn\\chiyuu.cn\\app\\web\\page\\home\\home.jsx"
+            "home/home": "babel-loader!D:\\kaitlyn\\chiyuu.cn\\app\\web\\framework\\entry\\server-loader.js!D:\\kaitlyn\\chiyuu.cn\\app\\web\\page\\home\\home.jsx"
           },
           "output": {
             "libraryTarget": "commonjs",
             "filename": "[name].js",
-            "path": "d:\\kaitlyn\\chiyuu.cn\\app\\view",
+            "path": "D:\\kaitlyn\\chiyuu.cn\\app\\view",
             "publicPath": "/public/"
           },
           "resolve": {
@@ -681,9 +681,9 @@
               ".js"
             ],
             "alias": {
-              "asset": "d:\\kaitlyn\\chiyuu.cn\\app\\web\\asset",
-              "component": "d:\\kaitlyn\\chiyuu.cn\\app\\web\\component",
-              "framework": "d:\\kaitlyn\\chiyuu.cn\\app\\web\\framework"
+              "asset": "D:\\kaitlyn\\chiyuu.cn\\app\\web\\asset",
+              "component": "D:\\kaitlyn\\chiyuu.cn\\app\\web\\component",
+              "framework": "D:\\kaitlyn\\chiyuu.cn\\app\\web\\framework"
             }
           },
           "externals": [
@@ -691,9 +691,9 @@
           ],
           "resolveLoader": {
             "modules": [
-              "d:\\kaitlyn\\chiyuu.cn\\node_modules",
-              "d:\\kaitlyn\\chiyuu.cn\\node_modules\\easywebpack\\lib\\node_modules",
-              "d:\\kaitlyn\\chiyuu.cn\\node_modules\\easywebpack-react\\node_modules"
+              "D:\\kaitlyn\\chiyuu.cn\\node_modules",
+              "D:\\kaitlyn\\chiyuu.cn\\node_modules\\easywebpack\\lib\\node_modules",
+              "D:\\kaitlyn\\chiyuu.cn\\node_modules\\easywebpack-react\\node_modules"
             ]
           },
           "mode": "development",
@@ -821,7 +821,7 @@
                 "EASY_ENV_IS_NODE": true,
                 "EASY_ENV_LOCAL_PUBLIC_PATH": "\"/public/\"",
                 "EASY_ENV_PUBLIC_PATH": "\"/public/\"",
-                "EASY_ENV_HOST_URL": "\"http://127.0.0.1:9000\""
+                "EASY_ENV_HOST_URL": "\"http://127.0.0.1:9002\""
               },
               "__plugin__": "DefinePlugin",
               "__lable__": "define"
@@ -928,9 +928,9 @@
       "license": "MIT",
       "homepage": "https://github.com/hubcarl/egg-react-webpack-boilerplate"
     },
-    "baseDir": "d:\\kaitlyn\\chiyuu.cn",
+    "baseDir": "D:\\kaitlyn\\chiyuu.cn",
     "HOME": "C:\\Users\\18730",
-    "rundir": "d:\\kaitlyn\\chiyuu.cn\\run",
+    "rundir": "D:\\kaitlyn\\chiyuu.cn\\run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -961,7 +961,7 @@
       "returnRawBody": true
     },
     "logger": {
-      "dir": "d:\\kaitlyn\\chiyuu.cn\\logs",
+      "dir": "D:\\kaitlyn\\chiyuu.cn\\logs",
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -1057,8 +1057,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\plugin.js",
-      "path": "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-session",
+      "from": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-session",
       "version": "3.1.0"
     },
     "security": {
@@ -1070,8 +1070,8 @@
         "session"
       ],
       "env": [],
-      "from": "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\plugin.js",
-      "path": "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-security",
+      "from": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-security",
       "version": "2.5.0"
     },
     "jsonp": {
@@ -1083,8 +1083,8 @@
         "security"
       ],
       "env": [],
-      "from": "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\plugin.js",
-      "path": "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-jsonp",
+      "from": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-jsonp",
       "version": "2.0.0"
     },
     "onerror": {
@@ -1096,8 +1096,8 @@
         "jsonp"
       ],
       "env": [],
-      "from": "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\plugin.js",
-      "path": "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-onerror",
+      "from": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-onerror",
       "version": "2.1.0"
     },
     "i18n": {
@@ -1107,8 +1107,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\plugin.js",
-      "path": "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-i18n",
+      "from": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-i18n",
       "version": "2.0.0"
     },
     "watcher": {
@@ -1118,8 +1118,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\plugin.js",
-      "path": "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-watcher",
+      "from": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-watcher",
       "version": "3.1.0"
     },
     "schedule": {
@@ -1129,8 +1129,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\plugin.js",
-      "path": "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-schedule",
+      "from": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-schedule",
       "version": "3.6.0"
     },
     "multipart": {
@@ -1142,8 +1142,8 @@
         "schedule"
       ],
       "env": [],
-      "from": "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\plugin.js",
-      "path": "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-multipart",
+      "from": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-multipart",
       "version": "2.4.0"
     },
     "development": {
@@ -1157,8 +1157,8 @@
       "env": [
         "local"
       ],
-      "from": "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\plugin.js",
-      "path": "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-development",
+      "from": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-development",
       "version": "2.4.2"
     },
     "logrotator": {
@@ -1170,8 +1170,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\plugin.js",
-      "path": "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-logrotator",
+      "from": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-logrotator",
       "version": "3.0.7"
     },
     "static": {
@@ -1181,8 +1181,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "d:\\kaitlyn\\chiyuu.cn\\config\\plugin.js",
-      "path": "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-static",
+      "from": "D:\\kaitlyn\\chiyuu.cn\\config\\plugin.js",
+      "path": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-static",
       "version": "2.2.0"
     },
     "view": {
@@ -1192,8 +1192,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\plugin.js",
-      "path": "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-view",
+      "from": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-view",
       "version": "2.1.2"
     },
     "reactssr": {
@@ -1203,8 +1203,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "d:\\kaitlyn\\chiyuu.cn\\config\\plugin.js",
-      "path": "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-view-react-ssr",
+      "from": "D:\\kaitlyn\\chiyuu.cn\\config\\plugin.js",
+      "path": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-view-react-ssr",
       "version": "2.4.1"
     },
     "cors": {
@@ -1214,8 +1214,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "d:\\kaitlyn\\chiyuu.cn\\config\\plugin.local.js",
-      "path": "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-cors",
+      "from": "D:\\kaitlyn\\chiyuu.cn\\config\\plugin.local.js",
+      "path": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-cors",
       "version": "2.2.0"
     },
     "webpack": {
@@ -1227,8 +1227,8 @@
       "env": [
         "local"
       ],
-      "from": "d:\\kaitlyn\\chiyuu.cn\\config\\plugin.local.js",
-      "path": "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-webpack",
+      "from": "D:\\kaitlyn\\chiyuu.cn\\config\\plugin.local.js",
+      "path": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-webpack",
       "version": "4.4.9"
     },
     "webpackreact": {
@@ -1240,8 +1240,8 @@
       "env": [
         "local"
       ],
-      "from": "d:\\kaitlyn\\chiyuu.cn\\config\\plugin.local.js",
-      "path": "d:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-webpack-react",
+      "from": "D:\\kaitlyn\\chiyuu.cn\\config\\plugin.local.js",
+      "path": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-webpack-react",
       "version": "2.0.2"
     }
   }

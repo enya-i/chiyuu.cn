@@ -1,0 +1,47 @@
+.about-comp{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  overflow-y:auto;
+}
+.about-title{
+  font-size: 24px;
+}
+.about-title-sub{
+  color: rgba(255, 255, 255, .5)
+}
+.about-content{
+  width: 740px;
+  text-align: left;
+}
+.about-author{
+  font-size: 20px;
+}
+.about-type-item{
+  margin-top: 80px;
+}
+.about-type-title{
+  font-size: 18px;
+  margin-bottom: 1px;
+}
+.about-info-item{
+  padding: 40px 0 32px;
+  border-bottom: 1px solid #4a4a4a;
+}
+.about-info-item-title{
+  font-size: 14px;
+  position: relative;
+}
+.about-info-item-job{
+  margin-left: 8px;
+}
+.about-info-item-time{
+  position: absolute;
+  right: 0;
+}
+.about-info-item-intro{
+  color: rgba(255, 255, 255, .5);
+  margin-top: 8px;
+}
