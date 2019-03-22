@@ -4,6 +4,7 @@ import './home.css'
 import Intro from './component/Intro'
 import Works from './component/Works'
 import About from './component/About'
+import Contact from './component/Contact'
 
 export default class Home extends Component {
   constructor(props) {
@@ -27,10 +28,10 @@ export default class Home extends Component {
     return (
       <div className="home-page" onWheel={this.handleWheelScroll}>
         <Carousel ref={carousel => (this.carousel = carousel)} vertical>
-          <Intro index="1" />
-          <Works index="2" />
-          <About index="3" />
-          <Intro index="4" />
+          <Intro />
+          <Works />
+          <About />
+          <Contact />
         </Carousel>
       </div>
     )

@@ -70,3 +70,21 @@ hostname: kaitlyn-hp
 pid: 6320
 hostname: kaitlyn-hp
 
+2019-03-22 20:03:29,406 ERROR 6836 [-/127.0.0.1/-/39ms GET /] nodejs.ReferenceError: 来自深圳的小蔡 is not defined
+    at Contact.render (webpack:///./app/web/page/home/component/Contact.jsx?:170:15)
+    at processChild (D:\kaitlyn\chiyuu.cn\node_modules\react-dom\cjs\react-dom-server.node.development.js:2942:18)
+    at resolve (D:\kaitlyn\chiyuu.cn\node_modules\react-dom\cjs\react-dom-server.node.development.js:2795:5)
+    at ReactDOMServerRenderer.render (D:\kaitlyn\chiyuu.cn\node_modules\react-dom\cjs\react-dom-server.node.development.js:3185:22)
+    at ReactDOMServerRenderer.read (D:\kaitlyn\chiyuu.cn\node_modules\react-dom\cjs\react-dom-server.node.development.js:3144:29)
+    at Object.renderToString (D:\kaitlyn\chiyuu.cn\node_modules\react-dom\cjs\react-dom-server.node.development.js:3629:27)
+    at Engine.renderToString (D:\kaitlyn\chiyuu.cn\node_modules\egg-view-react-ssr\lib\engine.js:130:27)
+    at Engine.renderElement (D:\kaitlyn\chiyuu.cn\node_modules\egg-view-react-ssr\lib\engine.js:100:35)
+    at D:\kaitlyn\chiyuu.cn\node_modules\egg-webpack-react\app.js:28:26
+    at Generator.next (<anonymous>)
+    at onFulfilled (D:\kaitlyn\chiyuu.cn\node_modules\co\index.js:65:19)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 6836
+hostname: kaitlyn-hp
+
