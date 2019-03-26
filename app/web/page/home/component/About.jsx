@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import './about.css'
+import aboutPic from 'asset/images/about_pic.png'
 
 export default class About extends Component {
   render() {
@@ -56,12 +57,9 @@ export default class About extends Component {
               </div>
             </div>
           </div>
-          <div className="about-bg">
-            <img
-              src="https://images.pexels.com/photos/2014806/pexels-photo-2014806.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-              alt=""
-            />
-          </div>
+        </div>
+        <div className="about-bg">
+          <img src={aboutPic} alt="" />
         </div>
       </div>
     )

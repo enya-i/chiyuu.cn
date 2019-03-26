@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Icon } from 'antd'
 import './contact.css'
+import codeImage from 'asset/images/code.png'
 
 export default class Contact extends Component {
   render() {
@@ -46,7 +47,7 @@ export default class Contact extends Component {
             </div>
             <div className="contact-profile-col">
               <img
-                src="https://images.pexels.com/photos/2014806/pexels-photo-2014806.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                src={codeImage}
                 alt=""
               />
             </div>

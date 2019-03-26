@@ -211,7 +211,8 @@
             "alias": {
               "asset": "D:\\kaitlyn\\chiyuu.cn\\app\\web\\asset",
               "component": "D:\\kaitlyn\\chiyuu.cn\\app\\web\\component",
-              "framework": "D:\\kaitlyn\\chiyuu.cn\\app\\web\\framework"
+              "framework": "D:\\kaitlyn\\chiyuu.cn\\app\\web\\framework",
+              "@": "D:\\kaitlyn\\chiyuu.cn\\app\\web"
             }
           },
           "externals": [],
@@ -646,7 +647,8 @@
             "alias": {
               "asset": "D:\\kaitlyn\\chiyuu.cn\\app\\web\\asset",
               "component": "D:\\kaitlyn\\chiyuu.cn\\app\\web\\component",
-              "framework": "D:\\kaitlyn\\chiyuu.cn\\app\\web\\framework"
+              "framework": "D:\\kaitlyn\\chiyuu.cn\\app\\web\\framework",
+              "@": "D:\\kaitlyn\\chiyuu.cn\\app\\web"
             }
           },
           "externals": [

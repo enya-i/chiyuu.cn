@@ -2,3 +2,6 @@
   background-color: #111;
   color: #fff;
 }
+.ant-carousel .slick-vertical .slick-slide{
+  border: none;
+}

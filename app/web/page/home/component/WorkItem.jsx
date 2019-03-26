@@ -1,11 +1,12 @@
 import React, { Component } from 'react'
 import './workItem.css'
+import workCover from 'asset/images/work_1.png'
 export default class Works extends Component {
   render() {
     return (
       <div className={this.props.className + ' work-item'}>
         <img
-          src="https://images.pexels.com/photos/2014806/pexels-photo-2014806.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+          src={workCover}
           alt=""
           className="work-cover"
         />

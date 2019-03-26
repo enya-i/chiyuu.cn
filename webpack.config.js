@@ -8,6 +8,9 @@ module.exports = {
       server: 'app/web/framework/entry/server-loader.js'
     }
   },
+  alias: {
+    '@': 'app/web'
+  },
   dll: ['react', 'react-dom'],
   loaders: {},
   plugins: {},
