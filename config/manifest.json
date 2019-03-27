@@ -4,6 +4,7 @@
   "runtime.js": "/public/js/runtime.js",
   "img/about_pic.png": "/public/img/about_pic.png",
   "img/code.png": "/public/img/code.png",
+  "img/logo.png": "/public/img/logo.png",
   "img/work_1.png": "/public/img/work_1.png",
   "vendor.js": "/public/js/vendor.js",
   "deps": {

@@ -229,7 +229,7 @@
           "entry": {
             "home/home": [
               "react-hot-loader/patch",
-              "D:\\kaitlyn\\chiyuu.cn\\node_modules\\webpack-hot-middleware/client?path=http://127.0.0.1:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "D:\\kaitlyn\\chiyuu.cn\\node_modules\\webpack-hot-middleware/client?path=http://127.0.0.1:9002/__webpack_hmr&noInfo=false&reload=false&quiet=false",
               "D:\\kaitlyn\\chiyuu.cn\\node_modules\\easywebpack\\utils\\hot.js",
               "babel-loader!D:\\kaitlyn\\chiyuu.cn\\app\\web\\framework\\entry\\client-loader.js!D:\\kaitlyn\\chiyuu.cn\\app\\web\\page\\home\\home.jsx"
             ]
@@ -392,7 +392,7 @@
                 "EASY_ENV_IS_NODE": false,
                 "EASY_ENV_LOCAL_PUBLIC_PATH": "\"/public/\"",
                 "EASY_ENV_PUBLIC_PATH": "\"/public/\"",
-                "EASY_ENV_HOST_URL": "\"http://127.0.0.1:9000\""
+                "EASY_ENV_HOST_URL": "\"http://127.0.0.1:9002\""
               },
               "__plugin__": "DefinePlugin",
               "__lable__": "define"
@@ -416,7 +416,7 @@
                 "generate": null,
                 "sort": null,
                 "baseDir": "D:\\kaitlyn\\chiyuu.cn",
-                "host": "http://127.0.0.1:9000",
+                "host": "http://127.0.0.1:9002",
                 "proxy": true,
                 "buildPath": "D:\\kaitlyn\\chiyuu.cn\\public",
                 "publicPath": "/public/",
@@ -823,7 +823,7 @@
                 "EASY_ENV_IS_NODE": true,
                 "EASY_ENV_LOCAL_PUBLIC_PATH": "\"/public/\"",
                 "EASY_ENV_PUBLIC_PATH": "\"/public/\"",
-                "EASY_ENV_HOST_URL": "\"http://127.0.0.1:9000\""
+                "EASY_ENV_HOST_URL": "\"http://127.0.0.1:9002\""
               },
               "__plugin__": "DefinePlugin",
               "__lable__": "define"
