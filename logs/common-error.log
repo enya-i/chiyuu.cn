@@ -88,3 +88,163 @@ hostname: kaitlyn-hp
 pid: 6836
 hostname: kaitlyn-hp
 
+2019-04-02 19:22:11,106 ERROR 9148 [-/127.0.0.1/-/435ms GET /] nodejs.Error: Module build failed (from ./node_modules/thread-loader/dist/cjs.js):
+Thread Loader (Worker 5)
+SyntaxError: D:/kaitlyn/chiyuu.cn/app/web/page/home/component/Music.jsx: Unexpected token (15:14)
+
+[0m [90m 13 | [39m  }
+ [90m 14 | [39m  [90m// 切换音乐[39m
+[31m[1m>[22m[39m[90m 15 | [39m  [33mChangeMusic[39m [33m=[39m myAudio [33m=>[39m {
+ [90m    | [39m              [31m[1m^[22m[39m
+ [90m 16 | [39m    [36mif[39m (audioArr[33m.[39mlength [33m-[39m [35m1[39m [33m<=[39m audioIndex) {
+ [90m 17 | [39m      audioIndex [33m=[39m [35m0[39m
+ [90m 18 | [39m      myAudio[33m.[39msrc [33m=[39m audioArr[[35m0[39m][33m.[39mfile_url[0m
+
+
+    at transpile (D:\kaitlyn\chiyuu.cn\node_modules\babel-loader\lib\index.js:65:13)
+    at D:\kaitlyn\chiyuu.cn\node_modules\babel-loader\lib\fs-cache.js:118:18
+    at ReadFileContext.callback (D:\kaitlyn\chiyuu.cn\node_modules\babel-loader\lib\fs-cache.js:31:21)
+    at FSReqWrap.readFileAfterOpen [as oncomplete] (fs.js:420:13)
+Thread Loader (Worker 5)
+SyntaxError: D:/kaitlyn/chiyuu.cn/app/web/page/home/component/Music.jsx: Unexpected token (15:14)
+
+[0m [90m 13 | [39m  }
+ [90m 14 | [39m  [90m// 切换音乐[39m
+[31m[1m>[22m[39m[90m 15 | [39m  [33mChangeMusic[39m [33m=[39m myAudio [33m=>[39m {
+ [90m    | [39m              [31m[1m^[22m[39m
+ [90m 16 | [39m    [36mif[39m (audioArr[33m.[39mlength [33m-[39m [35m1[39m [33m<=[39m audioIndex) {
+ [90m 17 | [39m      audioIndex [33m=[39m [35m0[39m
+ [90m 18 | [39m      myAudio[33m.[39msrc [33m=[39m audioArr[[35m0[39m][33m.[39mfile_url[0m
+
+
+    at transpile (D:\kaitlyn\chiyuu.cn\node_modules\babel-loader\lib\index.js:65:13)
+    at D:\kaitlyn\chiyuu.cn\node_modules\babel-loader\lib\fs-cache.js:118:18
+    at ReadFileContext.callback (D:\kaitlyn\chiyuu.cn\node_modules\babel-loader\lib\fs-cache.js:31:21)
+    at FSReqWrap.readFileAfterOpen [as oncomplete] (fs.js:420:13)
+    at eval (webpack:///./app/web/page/home/component/Music.jsx?:1:7)
+    at Object../app/web/page/home/component/Music.jsx (evalmachine.<anonymous>:243:1)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at Module.eval (webpack:///./app/web/page/home/home.jsx?:18:75)
+    at eval (webpack:///./app/web/page/home/home.jsx?:170:30)
+    at Module../app/web/page/home/home.jsx (evalmachine.<anonymous>:345:1)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at Module.eval (webpack:///./app/web/page/home/home.jsx?./node_modules/babel-loader/lib!./app/web/framework/entry/server-loader.js:5:104)
+    at eval (webpack:///./app/web/page/home/home.jsx?./node_modules/babel-loader/lib!./app/web/framework/entry/server-loader.js:72:30)
+    at Module../node_modules/babel-loader/lib/index.js!./app/web/framework/entry/server-loader.js!./app/web/page/home/home.jsx (evalmachine.<anonymous>:437:1)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at evalmachine.<anonymous>:84:18
+    at evalmachine.<anonymous>:87:10
+    at D:\kaitlyn\chiyuu.cn\node_modules\egg-webpack-react\app.js:23:37
+    at Generator.next (<anonymous>)
+    at onFulfilled (D:\kaitlyn\chiyuu.cn\node_modules\co\index.js:65:19)
+
+pid: 9148
+hostname: kaitlyn-hp
+
+2019-04-02 19:23:34,924 ERROR 18916 [-/127.0.0.1/-/230ms GET /] nodejs.MODULE_NOT_FOUNDError: Cannot find module 'asset/music/music1'
+    at webpackMissingModule (webpack:///./app/web/page/home/component/Music.jsx?:6:45)
+    at Module.eval (webpack:///./app/web/page/home/component/Music.jsx?:6:138)
+    at eval (webpack:///./app/web/page/home/component/Music.jsx?:108:30)
+    at Module../app/web/page/home/component/Music.jsx (evalmachine.<anonymous>:244:1)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at Module.eval (webpack:///./app/web/page/home/home.jsx?:18:75)
+    at eval (webpack:///./app/web/page/home/home.jsx?:169:30)
+    at Module../app/web/page/home/home.jsx (evalmachine.<anonymous>:357:1)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at Module.eval (webpack:///./app/web/page/home/home.jsx?./node_modules/babel-loader/lib!./app/web/framework/entry/server-loader.js:5:104)
+    at eval (webpack:///./app/web/page/home/home.jsx?./node_modules/babel-loader/lib!./app/web/framework/entry/server-loader.js:72:30)
+    at Module../node_modules/babel-loader/lib/index.js!./app/web/framework/entry/server-loader.js!./app/web/page/home/home.jsx (evalmachine.<anonymous>:449:1)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at evalmachine.<anonymous>:84:18
+    at evalmachine.<anonymous>:87:10
+    at D:\kaitlyn\chiyuu.cn\node_modules\egg-webpack-react\app.js:23:37
+code: "MODULE_NOT_FOUND"
+name: "MODULE_NOT_FOUNDError"
+pid: 18916
+hostname: kaitlyn-hp
+
+2019-04-02 19:33:14,056 ERROR 18916 [-/127.0.0.1/-/26ms GET /] nodejs.ReferenceError: ChangeMusic is not defined
+    at Module.eval (webpack:///./app/web/page/home/component/Music.jsx?:27:13)
+    at eval (webpack:///./app/web/page/home/component/Music.jsx?:102:30)
+    at Module../app/web/page/home/component/Music.jsx (evalmachine.<anonymous>:244:1)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at Module.eval (webpack:///./app/web/page/home/home.jsx?:18:75)
+    at eval (webpack:///./app/web/page/home/home.jsx?:169:30)
+    at Module../app/web/page/home/home.jsx (evalmachine.<anonymous>:357:1)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at Module.eval (webpack:///./app/web/page/home/home.jsx?./node_modules/babel-loader/lib!./app/web/framework/entry/server-loader.js:5:104)
+    at eval (webpack:///./app/web/page/home/home.jsx?./node_modules/babel-loader/lib!./app/web/framework/entry/server-loader.js:72:30)
+    at Module../node_modules/babel-loader/lib/index.js!./app/web/framework/entry/server-loader.js!./app/web/page/home/home.jsx (evalmachine.<anonymous>:449:1)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at evalmachine.<anonymous>:84:18
+    at evalmachine.<anonymous>:87:10
+    at D:\kaitlyn\chiyuu.cn\node_modules\egg-webpack-react\app.js:23:37
+    at Generator.next (<anonymous>)
+
+pid: 18916
+hostname: kaitlyn-hp
+
+2019-04-02 19:33:36,775 ERROR 18916 [-/127.0.0.1/-/27ms GET /] nodejs.ReferenceError: ChangeMusic is not defined
+    at Module.eval (webpack:///./app/web/page/home/component/Music.jsx?:27:13)
+    at eval (webpack:///./app/web/page/home/component/Music.jsx?:102:30)
+    at Module../app/web/page/home/component/Music.jsx (evalmachine.<anonymous>:244:1)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at Module.eval (webpack:///./app/web/page/home/home.jsx?:18:75)
+    at eval (webpack:///./app/web/page/home/home.jsx?:169:30)
+    at Module../app/web/page/home/home.jsx (evalmachine.<anonymous>:357:1)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at Module.eval (webpack:///./app/web/page/home/home.jsx?./node_modules/babel-loader/lib!./app/web/framework/entry/server-loader.js:5:104)
+    at eval (webpack:///./app/web/page/home/home.jsx?./node_modules/babel-loader/lib!./app/web/framework/entry/server-loader.js:72:30)
+    at Module../node_modules/babel-loader/lib/index.js!./app/web/framework/entry/server-loader.js!./app/web/page/home/home.jsx (evalmachine.<anonymous>:449:1)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at evalmachine.<anonymous>:84:18
+    at evalmachine.<anonymous>:87:10
+    at D:\kaitlyn\chiyuu.cn\node_modules\egg-webpack-react\app.js:23:37
+    at Generator.next (<anonymous>)
+
+pid: 18916
+hostname: kaitlyn-hp
+
+2019-04-02 19:34:33,342 ERROR 18916 [-/127.0.0.1/-/33ms GET /] nodejs.ReferenceError: ChangeMusic is not defined
+    at Module.eval (webpack:///./app/web/page/home/component/Music.jsx?:25:13)
+    at eval (webpack:///./app/web/page/home/component/Music.jsx?:100:30)
+    at Module../app/web/page/home/component/Music.jsx (evalmachine.<anonymous>:244:1)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at Module.eval (webpack:///./app/web/page/home/home.jsx?:18:75)
+    at eval (webpack:///./app/web/page/home/home.jsx?:169:30)
+    at Module../app/web/page/home/home.jsx (evalmachine.<anonymous>:357:1)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at Module.eval (webpack:///./app/web/page/home/home.jsx?./node_modules/babel-loader/lib!./app/web/framework/entry/server-loader.js:5:104)
+    at eval (webpack:///./app/web/page/home/home.jsx?./node_modules/babel-loader/lib!./app/web/framework/entry/server-loader.js:72:30)
+    at Module../node_modules/babel-loader/lib/index.js!./app/web/framework/entry/server-loader.js!./app/web/page/home/home.jsx (evalmachine.<anonymous>:449:1)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at evalmachine.<anonymous>:84:18
+    at evalmachine.<anonymous>:87:10
+    at D:\kaitlyn\chiyuu.cn\node_modules\egg-webpack-react\app.js:23:37
+    at Generator.next (<anonymous>)
+
+pid: 18916
+hostname: kaitlyn-hp
+
+2019-04-04 19:51:14,355 ERROR 12836 [-/127.0.0.1/-/30ms GET /] nodejs.MODULE_NOT_FOUNDError: Cannot find module 'asset/music/music1'
+    at webpackMissingModule (webpack:///./app/web/page/home/component/Music.jsx?:10:45)
+    at Module.eval (webpack:///./app/web/page/home/component/Music.jsx?:10:138)
+    at eval (webpack:///./app/web/page/home/component/Music.jsx?:125:30)
+    at Module../app/web/page/home/component/Music.jsx (evalmachine.<anonymous>:255:1)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at Module.eval (webpack:///./app/web/page/home/home.jsx?:18:75)
+    at eval (webpack:///./app/web/page/home/home.jsx?:169:30)
+    at Module../app/web/page/home/home.jsx (evalmachine.<anonymous>:368:1)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at Module.eval (webpack:///./app/web/page/home/home.jsx?./node_modules/babel-loader/lib!./app/web/framework/entry/server-loader.js:5:104)
+    at eval (webpack:///./app/web/page/home/home.jsx?./node_modules/babel-loader/lib!./app/web/framework/entry/server-loader.js:72:30)
+    at Module../node_modules/babel-loader/lib/index.js!./app/web/framework/entry/server-loader.js!./app/web/page/home/home.jsx (evalmachine.<anonymous>:460:1)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at evalmachine.<anonymous>:84:18
+    at evalmachine.<anonymous>:87:10
+    at D:\kaitlyn\chiyuu.cn\node_modules\egg-webpack-react\app.js:23:37
+code: "MODULE_NOT_FOUND"
+name: "MODULE_NOT_FOUNDError"
+pid: 12836
+hostname: kaitlyn-hp
+

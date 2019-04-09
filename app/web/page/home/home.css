@@ -24,6 +24,10 @@
   flex-direction: column;
   align-items: center;
 }
+.home-page-bg{
+  bottom: 52px;
+  right: 64px;
+}
 .home-page-contacts img{
   margin-top: 20px;
 }

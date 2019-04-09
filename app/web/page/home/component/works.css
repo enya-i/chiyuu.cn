@@ -5,6 +5,7 @@
   justify-content: center;
   text-align: center;
   overflow-y: hidden;
+  padding: 80px 20px 0 100px;
 }
 .works-container{
   max-width: 1400px;
@@ -27,4 +28,18 @@
 }
 .works-item:nth-child(3n){
   margin-right: 0;
+}
+@media(min-width: 800px) and (max-width: 1400px){
+  .works-container{
+    max-width: 800px;
+  }
+  .works-item{
+    width: 388px;
+  }
+  .works-item:nth-child(3n){
+    margin-right: 24px;
+  }
+  .works-item:nth-child(2n){
+    margin-right: 0;
+  }
 }

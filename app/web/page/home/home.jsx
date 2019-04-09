@@ -5,6 +5,7 @@ import Intro from './component/Intro'
 import Works from './component/Works'
 import About from './component/About'
 import Contact from './component/Contact'
+import Music from './component/Music'
 import logoImg from 'asset/images/logo.png'
 import menuImg from 'asset/images/menu.png'
 import QQImg from 'asset/images/QQ.png'
@@ -49,6 +50,7 @@ export default class Home extends Component {
             <img src={zcoolImg} alt="" />
           </Tooltip>
         </div>
+        <Music className="home-page-bg home-page-fixed" />
         <Carousel ref={carousel => (this.carousel = carousel)} vertical>
           <Intro />
           <Works />

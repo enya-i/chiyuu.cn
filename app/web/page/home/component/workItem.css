@@ -14,3 +14,8 @@
 .info-seperate{
   margin: 0 4px;
 }
+@media(min-width: 800px) and (max-width: 1400px){
+  .work-cover{
+    height: 219px;
+  }
+}

@@ -6,6 +6,9 @@
   "img/code.png": "/public/img/code.png",
   "img/logo.png": "/public/img/logo.png",
   "img/work_1.png": "/public/img/work_1.png",
+  "media/music1.mp3": "/public/media/music1.mp3",
+  "media/music2.mp3": "/public/media/music2.mp3",
+  "media/music3.mp3": "/public/media/music3.mp3",
   "vendor.js": "/public/js/vendor.js",
   "deps": {
     "home/home.js": {

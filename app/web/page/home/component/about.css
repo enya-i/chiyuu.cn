@@ -6,6 +6,7 @@
   text-align: center;
   overflow-y:auto;
   position: relative;
+  padding: 80px 20px 0 100px;
 }
 .about-container{
   display: flex;
@@ -58,12 +59,32 @@
   position: absolute;
   right: 0;
   bottom: 0;
+  top: 0;
 }
-@media(min-width: 1400px) and (max-width: 1800px){
+.about-bg img{
+  height: 100%;
+    object-fit: cover;
+}
+@media(min-width: 1401px) and (max-width: 1800px){
   .about-title{
     width: 200px;
   }
   .about-content {
     max-width: 700px;
+  }
+  .about-bg img{
+    width: 480px;
+  }
+}
+@media(min-width: 800px) and (max-width: 1400px){
+  .about-container{
+    display: block;
+    padding-right: 300px;
+  }
+  .about-content{
+    max-width: 625px;
+  }
+  .about-bg img{
+    width: 300px;
   }
 }
