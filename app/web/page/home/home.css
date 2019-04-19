@@ -1,0 +1,33 @@
+.ant-carousel{
+  background-color: #111;
+  color: #fff;
+}
+.ant-carousel .slick-vertical .slick-slide{
+  border: none;
+}
+.home-page-fixed{
+  position: fixed;
+  z-index: 2;
+}
+.home-page-logo{
+  top: 32px;
+  left: 64px;
+}
+.home-page-menu{
+  top: 32px;
+  right: 64px;
+}
+.home-page-contacts{
+  left: 64px;
+  bottom: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.home-page-bg{
+  bottom: 52px;
+  right: 64px;
+}
+.home-page-contacts img{
+  margin-top: 20px;
+}

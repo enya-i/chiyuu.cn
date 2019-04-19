@@ -1,0 +1,21 @@
+.work-cover{
+  width: 100%;
+  height: 252px;
+  object-fit: cover;
+}
+.work-title{
+  font-size: 16px;
+  margin: 20px 0 10px;
+}
+.work-info{
+  font-size: 12px;
+  color: rgba(255, 255, 255, .5)
+}
+.info-seperate{
+  margin: 0 4px;
+}
+@media(min-width: 800px) and (max-width: 1400px){
+  .work-cover{
+    height: 219px;
+  }
+}

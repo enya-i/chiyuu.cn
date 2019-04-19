@@ -1,0 +1,333 @@
+{
+  "siteFile": {
+    "/favicon.ico": "D:\\kaitlyn\\chiyuu.cn\\config\\config.default.js"
+  },
+  "logger": {
+    "consoleLevel": "D:\\kaitlyn\\chiyuu.cn\\config\\config.default.js",
+    "dir": "D:\\kaitlyn\\chiyuu.cn\\config\\config.default.js",
+    "encoding": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js",
+    "env": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js",
+    "level": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js",
+    "outputJSON": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js",
+    "buffer": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js",
+    "appLogName": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js",
+    "coreLogName": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js",
+    "agentLogName": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js",
+    "errorLogName": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js",
+    "coreLogger": {
+      "consoleLevel": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.local.js"
+    },
+    "allowDebugAtProd": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js"
+  },
+  "static": {
+    "prefix": "D:\\kaitlyn\\chiyuu.cn\\config\\config.default.js",
+    "dir": "D:\\kaitlyn\\chiyuu.cn\\config\\config.default.js",
+    "maxAge": "D:\\kaitlyn\\chiyuu.cn\\config\\config.local.js",
+    "dynamic": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-static\\config\\config.default.js",
+    "preload": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-static\\config\\config.default.js",
+    "buffer": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-static\\config\\config.default.js",
+    "maxFiles": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-static\\config\\config.default.js"
+  },
+  "keys": "D:\\kaitlyn\\chiyuu.cn\\config\\config.default.js",
+  "middleware": "D:\\kaitlyn\\chiyuu.cn\\config\\config.default.js",
+  "reactssr": {
+    "layout": "D:\\kaitlyn\\chiyuu.cn\\config\\config.default.js",
+    "injectCss": "D:\\kaitlyn\\chiyuu.cn\\config\\config.local.js",
+    "doctype": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-view-react-ssr\\config\\config.default.js",
+    "manifest": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-view-react-ssr\\config\\config.default.js",
+    "injectHeadRegex": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-view-react-ssr\\config\\config.default.js",
+    "injectBodyRegex": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-view-react-ssr\\config\\config.default.js",
+    "injectJs": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-view-react-ssr\\config\\config.default.js",
+    "crossorigin": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-view-react-ssr\\config\\config.default.js",
+    "injectRes": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-view-react-ssr\\config\\config.default.js",
+    "mergeLocals": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-view-react-ssr\\config\\config.default.js",
+    "fallbackToClient": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-view-react-ssr\\config\\config.default.js",
+    "afterRender": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-view-react-ssr\\config\\config.default.js"
+  },
+  "development": {
+    "watchDirs": "D:\\kaitlyn\\chiyuu.cn\\config\\config.local.js",
+    "ignoreDirs": "D:\\kaitlyn\\chiyuu.cn\\config\\config.local.js",
+    "fastReady": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-development\\config\\config.default.js",
+    "reloadOnDebug": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-development\\config\\config.default.js",
+    "overrideDefault": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-development\\config\\config.default.js"
+  },
+  "webpack": {
+    "webpackConfigList": "D:\\kaitlyn\\chiyuu.cn\\config\\config.local.js",
+    "port": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-webpack\\config\\config.default.js",
+    "proxy": {
+      "host": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-webpack\\config\\config.default.js",
+      "match": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-webpack\\config\\config.default.js"
+    }
+  },
+  "security": {
+    "domainWhiteList": "D:\\kaitlyn\\chiyuu.cn\\config\\config.local.js",
+    "protocolWhiteList": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-security\\config\\config.default.js",
+    "defaultMiddleware": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-security\\config\\config.default.js",
+    "csrf": {
+      "enable": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-security\\config\\config.default.js",
+      "useSession": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-security\\config\\config.default.js",
+      "ignoreJSON": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-security\\config\\config.default.js",
+      "cookieName": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-security\\config\\config.default.js",
+      "sessionName": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-security\\config\\config.default.js",
+      "headerName": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-security\\config\\config.default.js",
+      "bodyName": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-security\\config\\config.default.js",
+      "queryName": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "xframe": {
+      "enable": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "hsts": {
+      "enable": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-security\\config\\config.local.js",
+      "maxAge": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-security\\config\\config.default.js",
+      "includeSubdomains": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "dta": {
+      "enable": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "noopen": {
+      "enable": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "nosniff": {
+      "enable": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "xssProtection": {
+      "enable": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "csp": {
+      "enable": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-security\\config\\config.default.js",
+      "policy": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-security\\config\\config.default.js",
+      "checkAddress": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-security\\config\\config.default.js"
+    }
+  },
+  "session": {
+    "maxAge": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-session\\config\\config.default.js",
+    "key": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-session\\config\\config.default.js",
+    "httpOnly": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-session\\config\\config.default.js",
+    "encrypt": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-session\\config\\config.default.js"
+  },
+  "helper": {
+    "shtml": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-security\\config\\config.default.js"
+  },
+  "jsonp": {
+    "limit": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "callback": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "csrf": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-jsonp\\config\\config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-onerror\\config\\config.default.js",
+    "templatePath": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-onerror\\config\\config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-i18n\\config\\config.default.js",
+    "dirs": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-i18n\\config\\config.default.js",
+    "queryField": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieField": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieMaxAge": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-i18n\\config\\config.default.js"
+  },
+  "watcher": {
+    "type": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-watcher\\config\\config.local.js",
+    "eventSources": {
+      "default": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-watcher\\config\\config.default.js",
+      "development": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-watcher\\config\\config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-schedule\\config\\config.default.js",
+      "file": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-schedule\\config\\config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-schedule\\config\\config.default.js"
+  },
+  "multipart": {
+    "mode": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-multipart\\config\\config.default.js",
+    "autoFields": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-multipart\\config\\config.default.js",
+    "defaultCharset": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldSize": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fields": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileSize": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-multipart\\config\\config.default.js",
+    "files": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileExtensions": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-multipart\\config\\config.default.js",
+    "whitelist": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-multipart\\config\\config.default.js",
+    "tmpdir": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-multipart\\config\\config.default.js",
+    "cleanSchedule": {
+      "cron": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-multipart\\config\\config.default.js"
+    }
+  },
+  "logrotator": {
+    "filesRotateByHour": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "hourDelimiter": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "filesRotateBySize": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFileSize": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFiles": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "rotateDuration": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxDays": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-logrotator\\config\\config.default.js"
+  },
+  "view": {
+    "root": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-view\\config\\config.default.js",
+    "cache": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-view\\config\\config.local.js",
+    "defaultExtension": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-view\\config\\config.default.js",
+    "defaultViewEngine": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-view\\config\\config.default.js",
+    "mapping": {
+      ".js": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-view-react-ssr\\config\\config.default.js",
+      ".jsx": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-view-react-ssr\\config\\config.default.js"
+    }
+  },
+  "cors": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-cors\\config\\config.default.js",
+  "webpackreact": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg-webpack-react\\config\\config.default.js",
+  "env": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js",
+  "name": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js",
+  "proxy": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js",
+  "protocolHeaders": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js",
+  "ipHeaders": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js",
+  "hostHeaders": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js",
+  "pkg": {
+    "name": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js",
+    "version": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js",
+    "description": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js",
+    "scripts": {
+      "build": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js",
+      "dev": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js",
+      "start": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js",
+      "debug": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js",
+      "clean": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js",
+      "kill-port": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js",
+      "lint": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js",
+      "fix": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js",
+      "ii": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js"
+    },
+    "dependencies": {
+      "antd": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js",
+      "cross-env": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js",
+      "egg": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js",
+      "egg-cors": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js",
+      "egg-logger": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js",
+      "egg-scripts": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js",
+      "egg-validate": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js",
+      "egg-view-react-ssr": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js",
+      "extend": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js",
+      "history": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js",
+      "lodash": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js",
+      "mockjs": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js",
+      "moment": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js",
+      "react": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js",
+      "react-audio-player": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js",
+      "react-dom": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js",
+      "react-redux": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js",
+      "react-router": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js",
+      "react-router-config": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js",
+      "react-router-dom": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js",
+      "react-router-redux": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js",
+      "redux": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js"
+    },
+    "devDependencies": {
+      "autod-egg": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js",
+      "babel-preset-react": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js",
+      "easywebpack-cli": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js",
+      "easywebpack-react": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js",
+      "egg-bin": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js",
+      "egg-webpack": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js",
+      "egg-webpack-react": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js",
+      "eslint-config-egg": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js",
+      "eslint-plugin-react": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js",
+      "imagemin-webpack-plugin": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js",
+      "ip": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js"
+    },
+    "engines": {
+      "node": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js"
+    },
+    "ci": {
+      "version": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js"
+    },
+    "repository": {
+      "type": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js",
+      "url": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js"
+    },
+    "author": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js",
+    "license": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js",
+    "homepage": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js"
+  },
+  "baseDir": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js",
+  "HOME": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js",
+  "rundir": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js",
+  "dump": {
+    "ignore": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js",
+    "notFound": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js",
+    "sitefile": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js",
+    "middlewares": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js",
+    "httpClient": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js"
+  },
+  "bodyParser": {
+    "enable": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js",
+    "formLimit": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js",
+    "jsonLimit": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js",
+    "strict": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js",
+    "queryString": {
+      "arrayLimit": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js",
+      "depth": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js",
+      "parameterLimit": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "httpclient": {
+    "enableDNSCache": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheLookupInterval": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js",
+    "request": {
+      "timeout": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js",
+    "logging": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js"
+  },
+  "coreMiddleware": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js",
+  "workerStartTimeout": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js",
+  "serverTimeout": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js",
+      "port": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js",
+      "hostname": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js",
+    "responseTimeout": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js"
+  },
+  "onClientError": "D:\\kaitlyn\\chiyuu.cn\\node_modules\\egg\\config\\config.default.js"
+}
